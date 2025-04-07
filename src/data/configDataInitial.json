@@ -1,0 +1,203 @@
+{
+  "lastUpdated": "",
+  "lang": "es",
+  "userData": {
+    "userId": "",
+    "userName": "",
+    "userMSISDN": "",
+    "userEmail": "",
+    "userPoints": 0,
+    "userAvatar": ""
+  },
+  "validPeriod": {
+    "startDate": "",
+    "endDate": ""
+  },
+  "config": {
+    "triesAllowedPerDay": 0,
+    "countdownSeconds": 0,
+    "amountAnswersToChangeCategory": 0,
+    "pointsCorrect": 0,
+    "pointsWrong": 0,
+    "pointsBonus": 0
+  },
+  "colors": {
+    "background": "",
+    "backgroundCardQuestion": "",
+    "wrong": "",
+    "correct": "",
+    "title": "",
+    "text": "",
+    "primary": "",
+    "primaryLight": "",
+    "secondary": "",
+    "nextBtnGradient": "",
+    "answerBtnGradient": ""
+  },
+  "images": {
+    "es": {
+      "logoHeader": "",
+      "logoHeaderMenu": "",
+      "rewardsImages": [
+        {
+          "src": "",
+          "name": ""
+        }
+      ]
+    },
+    "madeBy": "",
+    "backgroundApp": "",
+    "spinButton": "",
+    "rewardsButton": "",
+    "termsButton": "",
+    "backgroundPoints": "",
+    "backgroundPointsMenu": "",
+    "rouletteSpinAgain": "",
+    "circleQuestionsCounter": ""
+  },
+  "links": {
+    "termsURL": ""
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "",
+      "imgURL": "",
+      "color": "",
+      "bonus": false,
+      "questions": [
+        {
+          "id": 1,
+          "title": "",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "",
+              "isCorrect": false
+            },
+            {
+              "text": "",
+              "isCorrect": false
+            },
+            {
+              "text": "",
+              "isCorrect": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "",
+      "imgURL": "",
+      "color": "",
+      "bonus": false,
+      "questions": [
+        {
+          "id": 1,
+          "title": "",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "",
+              "isCorrect": false
+            },
+            {
+              "text": "",
+              "isCorrect": false
+            },
+            {
+              "text": "",
+              "isCorrect": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "",
+      "imgURL": "",
+      "color": "",
+      "bonus": false,
+      "questions": [
+        {
+          "id": 1,
+          "title": "",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "",
+              "isCorrect": false
+            },
+            {
+              "text": "",
+              "isCorrect": false
+            },
+            {
+              "text": "",
+              "isCorrect": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "",
+      "imgURL": "",
+      "color": "",
+      "bonus": false,
+      "questions": [
+        {
+          "id": 1,
+          "title": "",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "",
+              "isCorrect": false
+            },
+            {
+              "text": "",
+              "isCorrect": false
+            },
+            {
+              "text": "",
+              "isCorrect": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "",
+      "imgURL": "",
+      "color": "",
+      "bonus": false,
+      "questions": [
+        {
+          "id": 1,
+          "title": "",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "",
+              "isCorrect": false
+            },
+            {
+              "text": "",
+              "isCorrect": false
+            },
+            {
+              "text": "",
+              "isCorrect": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

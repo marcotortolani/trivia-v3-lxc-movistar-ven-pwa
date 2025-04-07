@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'TekoRegular';
+  src: url('../src/assets/fonts/Teko/Teko-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'TekoMedium';
+  src: url('../src/assets/fonts/Teko/Teko-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OswaldLight';
+  src: url('../src/assets/fonts/Oswald/Oswald-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'OswaldRegular';
+  src: url('../src/assets/fonts/Oswald/Oswald-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'OswaldMedium';
+  src: url('../src/assets/fonts/Oswald/Oswald-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'OswaldBold';
+  src: url('../src/assets/fonts/Oswald/Oswald-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OswaldHeavyItalic';
+  src: url('../src/assets/fonts/Oswald/Oswald-Heavy-Italic.otf')
+    format('opentype');
+}
+
+@font-face {
+  font-family: 'PoppinsLight';
+  src: url('../src/assets/fonts/Poppins/Poppins-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PoppinsRegular';
+  src: url('../src/assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PoppinsMedium';
+  src: url('../src/assets/fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PoppinsBold';
+  src: url('../src/assets/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+    color: #646464;
+  }
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
+body {
+  background-color: black;
+}
+
+#terms-iframe {
+  background-color: transparent;
+  html {
+    body {
+      background-color: burlywood;
+    }
+  }
+
+  & div {
+    background-color: blue;
+  }
+
+  h1 {
+    color: red;
+    font-size: 4rem;
+  }
+}
