@@ -41,14 +41,16 @@ export default function App() {
     if (configData?.lastUpdated === lastUpdated) return
 
     updateConfigData(configData as ConfigData)
-    if (lang === '') {
+    if (lang === undefined) {
       setLang(configData.lang)
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [configData])
 
   useEffect(() => {
     if (!categories) return
     syncCategoriesState(categories)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [categories])
 
   //if (loading) return <Loading />
