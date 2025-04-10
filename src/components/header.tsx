@@ -55,12 +55,12 @@ export function Header({ onMenuClick }: HeaderProps) {
           <Menu style={{ width: 28, height: 32, color: colors.text }} />
         </Button>
 
-        <div>
+        <div className=" ">
           <img
             src={images.es.logoHeader}
             alt="Logo"
             onClick={handleLogoClick}
-            className="w-5/6 xs:w-4/5 max-w-[300px] mx-auto hover:cursor-pointer"
+            className="w-5/6 xs:w-4/5 max-w-[300px] max-h-[150px] md:max-h-[200px] mx-auto hover:cursor-pointer"
           />
         </div>
 

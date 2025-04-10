@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-04-10 12:14:00",
+  "lastUpdated": "2025-04-10 12:16:00",
   "lang": "es",
   "userData": {
     "userId": "",
@@ -22,7 +22,7 @@
     "pointsBonus": 1000
   },
   "colors": {
-    "background": "#200F25",
+    "background": "#301F45",
     "backgroundCardQuestion": "#e40f18",
     "wrong": "#ef1f1f",
     "correct": "#35a333",
@@ -39,14 +39,6 @@
       "logoHeader": "/img/logo.webp",
       "logoHeaderMenu": "/img/logo.webp",
       "rewardsImages": [
-        {
-          "src": "/img/premio01.webp",
-          "name": "prize"
-        },
-        {
-          "src": "/img/premio01.webp",
-          "name": "prize"
-        },
         {
           "src": "/img/premio01.webp",
           "name": "prize"
