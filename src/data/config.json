@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-04-28 12:14:00",
+  "lastUpdated": "2025-04-10 12:14:00",
   "lang": "es",
   "userData": {
     "userId": "",
@@ -22,16 +22,16 @@
     "pointsBonus": 1000
   },
   "colors": {
-    "background": "#3d1c7c",
-    "backgroundCardQuestion": "#9d2b67",
+    "background": "#200F25",
+    "backgroundCardQuestion": "#e40f18",
     "wrong": "#ef1f1f",
-    "correct": "#5ac439",
-    "title": "#9d2b67",
-    "text": "#FAFAFA",
-    "primary": "#9d2b67",
-    "primaryLight": "#c93c87",
-    "secondary": "#3d1c7c",
-    "nextBtnGradient": "linear-gradient(180deg, #9d2b67 50%, #691c45 100%)",
+    "correct": "#35a333",
+    "title": "#E08009",
+    "text": "#ffffff",
+    "primary": "#E08009",
+    "primaryLight": "#fa9e2e",
+    "secondary": "#872847",
+    "nextBtnGradient": "linear-gradient(180deg, #E08009 50%, #fea02c 100%)",
     "answerBtnGradient": "#b6b6b6"
   },
   "images": {
@@ -69,197 +69,197 @@
   "categories": [
     {
       "id": 1,
-      "name": "PERSONAJES",
-      "imgURL": "/img/categoria-personajes.webp",
-      "color": "#c93c87",
-      "bonus": true,
+      "name": "Chefs",
+      "imgURL": "/img/categoria-chef.webp",
+      "color": "#573951",
+      "bonus": false,
       "questions": [
         {
           "id": 1,
-          "title": "¿Cuál es la vestimenta icónica de Mario?",
+          "title": "¿Cuál fue el nombre de la primera chef mujer en recibir un premio Michelin?",
           "bonus": false,
           "answers": [
             {
-              "text": "Chaqueta Negra",
-              "isCorrect": false
-            },
-            {
-              "text": "Remera Verde",
-              "isCorrect": false
-            },
-            {
-              "text": "Overol Azul",
+              "text": "Eugénie Brazier",
               "isCorrect": true
+            },
+            {
+              "text": "Marie Bourgeois",
+              "isCorrect": false
+            },
+            {
+              "text": "Marguerite Bise",
+              "isCorrect": false
             }
           ]
         },
         {
           "id": 2,
-          "title": "¿Cómo se llama la princesa del Reino Champiñón?",
+          "title": "¿En qué institución culinaria se formó Julia Child?",
           "bonus": false,
           "answers": [
             {
-              "text": "Daisy",
+              "text": "Les Ateliers Ferrières",
               "isCorrect": false
             },
             {
-              "text": "Peach",
+              "text": "Le Cordon Bleu",
               "isCorrect": true
             },
             {
-              "text": "Rosalina",
+              "text": "Bordeaux-Gironde",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 3,
-          "title": "¿De qué color es el dinosaurio que ayuda a Mario y Luigi?",
+          "title": "¿Cuál es el país de nacimiento de Gordon Ramsay?",
           "bonus": false,
           "answers": [
             {
-              "text": "Rojo",
-              "isCorrect": false
-            },
-            {
-              "text": "Azul",
-              "isCorrect": false
-            },
-            {
-              "text": "Verde",
+              "text": "Escocia",
               "isCorrect": true
+            },
+            {
+              "text": "Inglaterra",
+              "isCorrect": false
+            },
+            {
+              "text": "Gales",
+              "isCorrect": false
             }
           ]
         },
         {
           "id": 4,
-          "title": "¿Quién es el principal antagonista de Mario?",
+          "title": "¿Cuál es el título del programa televisivo conducido por Gordon Ramsay?",
           "bonus": false,
           "answers": [
             {
-              "text": "Bowser",
+              "text": "Master Chef",
               "isCorrect": true
             },
             {
-              "text": "Goomba",
+              "text": "Bake Off",
               "isCorrect": false
             },
             {
-              "text": "Bill Bala",
+              "text": "Hell's Kitchen",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 5,
-          "title": "¿Cuál de los siguientes es un secuaz de Bowser?",
+          "title": "¿Cómo se llama la institución fundada por Sumito Estévez?",
           "bonus": false,
           "answers": [
             {
-              "text": "Wario",
+              "text": "Instituto Gastronómico de Caracas",
               "isCorrect": false
             },
             {
-              "text": "Koopa Troopa",
+              "text": "Instituto Culinario de Caracas",
               "isCorrect": true
             },
             {
-              "text": "Toad",
+              "text": "Instituto de Cocina Venezolana",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 6,
-          "title": "¿Quién es el compañero de aventuras de Wario?",
+          "title": "¿Cuántos volúmenes comprende el libro 'La Cocina de Sumito'?",
           "bonus": false,
           "answers": [
             {
-              "text": "Luigi",
+              "text": "13 tomos",
               "isCorrect": false
             },
             {
-              "text": "Browser",
+              "text": "14 tomos",
               "isCorrect": false
             },
             {
-              "text": "Warluigi",
+              "text": "15 tomos",
               "isCorrect": true
             }
           ]
         },
         {
           "id": 7,
-          "title": "La princesa Peach tiene una hermana llamada...",
+          "title": "¿Qué distinción relevante obtuvo Ricardo Chaneton en el año 2022?",
           "bonus": false,
           "answers": [
             {
-              "text": "Daisy",
+              "text": "Michelin",
               "isCorrect": true
             },
             {
-              "text": "Rosalina",
+              "text": "Zagat",
               "isCorrect": false
             },
             {
-              "text": "Olivia",
+              "text": "James Beard",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 8,
-          "title": "El villano Bowser es cuidado por un hechicero llamado...",
+          "title": "¿Dónde se encuentra ubicado el restaurante Mono de Ricardo Chaneton?",
           "bonus": false,
           "answers": [
             {
-              "text": "Kammy",
+              "text": "Shangai",
               "isCorrect": false
             },
             {
-              "text": "Kamelia",
-              "isCorrect": false
-            },
-            {
-              "text": "Kamek",
+              "text": "Hong Kong",
               "isCorrect": true
+            },
+            {
+              "text": "Tokio",
+              "isCorrect": false
             }
           ]
         },
         {
           "id": 9,
-          "title": "El Rey Boo tiene los ojos de color...",
+          "title": "¿Cuál es el nombre del programa dirigido por Edgar Leal?",
           "bonus": false,
           "answers": [
             {
-              "text": "Azules",
-              "isCorrect": false
-            },
-            {
-              "text": "Morados",
+              "text": "Casa Leal en Casa Club TV",
               "isCorrect": true
             },
             {
-              "text": "Rosas",
+              "text": "Casa Lean en TV",
+              "isCorrect": false
+            },
+            {
+              "text": "Casa Lean Club",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 10,
-          "title": "¿Quién es el champiñón fiel defensor de la princesa Peach?",
+          "title": "¿A cuál galardón fue nominada en dos ocasiones Ilma López?",
           "bonus": false,
           "answers": [
             {
-              "text": "Yoshi",
+              "text": "Michelin",
               "isCorrect": false
             },
             {
-              "text": "Koopas",
+              "text": "Zagat",
               "isCorrect": false
             },
             {
-              "text": "Toad",
+              "text": "James Beard",
               "isCorrect": true
             }
           ]
@@ -268,197 +268,197 @@
     },
     {
       "id": 2,
-      "name": "JUEGOS",
-      "imgURL": "/img/categoria-juegos.webp",
-      "color": "#8daaa5",
-      "bonus": true,
+      "name": "Recetas y Comidas",
+      "imgURL": "/img/categoria-recetas.webp",
+      "color": "#2D1230",
+      "bonus": false,
       "questions": [
         {
           "id": 1,
-          "title": "¿Cuáles son las monedas utilizadas en Stumble Guys?",
+          "title": "¿Qué fruta seca sale de las uvas?",
           "bonus": false,
           "answers": [
             {
-              "text": "Fichas y Gemas",
-              "isCorrect": true
-            },
-            {
-              "text": "Oro",
+              "text": "Anacardo",
               "isCorrect": false
             },
             {
-              "text": "Diamantes",
+              "text": "Pasas",
+              "isCorrect": true
+            },
+            {
+              "text": "Ciruela",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 2,
-          "title": "¿Cuántos emotes especiales están disponibles en Stumble Guys?",
+          "title": "¿Cuál es el ingrediente principal del falafel?",
           "bonus": false,
           "answers": [
             {
-              "text": "3",
+              "text": "Semillas de sésamo",
               "isCorrect": false
             },
             {
-              "text": "4",
+              "text": "Garbanzos",
               "isCorrect": true
             },
             {
-              "text": "5",
+              "text": "Tomates",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 3,
-          "title": "¿Cuál es el precio de una tirada para obtener un aspecto raro o mejor en Stumble Guys?",
+          "title": "¿El pescado crudo se cura agregándole qué ingrediente?",
           "bonus": false,
           "answers": [
             {
-              "text": "90 gemas",
+              "text": "Jugos cítricos",
               "isCorrect": true
             },
             {
-              "text": "120 gemas",
+              "text": "Vinagre",
               "isCorrect": false
             },
             {
-              "text": "250 gemas",
+              "text": "Aceite caliente",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 4,
-          "title": "¿Cuál es la rareza más baja en Stumble Guys?",
+          "title": "¿Los arancini son unas albóndigas fritas de qué?",
           "bonus": false,
           "answers": [
             {
-              "text": "Legendarios",
+              "text": "Spaguettis",
               "isCorrect": false
             },
             {
-              "text": "Comunes",
+              "text": "Tomate",
+              "isCorrect": false
+            },
+            {
+              "text": "Risotto",
               "isCorrect": true
-            },
-            {
-              "text": "Míticos",
-              "isCorrect": false
             }
           ]
         },
         {
           "id": 5,
-          "title": "¿En qué juego de Nintendo aparece un fontanero famoso?",
+          "title": "¿Qué ingredientes componen la dieta mediterránea?",
           "bonus": false,
           "answers": [
             {
-              "text": "PacMan",
+              "text": "Aceite de oliva, carnes y pollo",
               "isCorrect": false
             },
             {
-              "text": "The Legend of Zelda",
-              "isCorrect": false
-            },
-            {
-              "text": "Mario Bros",
+              "text": "Aceite de oliva, harinas y mucho sol",
               "isCorrect": true
+            },
+            {
+              "text": "Aceite de oliva, leche y pan",
+              "isCorrect": false
             }
           ]
         },
         {
           "id": 6,
-          "title": "¿Cómo se llama la princesa que Mario debe rescatar en los juegos de Nintendo?",
+          "title": "El mole hace referencia a una variedad de salsas de origen",
           "bonus": false,
           "answers": [
             {
-              "text": "Princesa Leia",
+              "text": "Brasileño",
               "isCorrect": false
             },
             {
-              "text": "Princesa Peach",
+              "text": "Mexicano",
               "isCorrect": true
             },
             {
-              "text": "Princesa Diana",
+              "text": "Ecuatoriano",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 7,
-          "title": "¿Qué inspiró a Satoshi Tajiri para crear Pokémon?",
+          "title": "El risotto es un plato a base de...",
           "bonus": false,
           "answers": [
             {
-              "text": "Una colección de insectos",
-              "isCorrect": true
-            },
-            {
-              "text": "Un juguete de la infancia",
+              "text": "Pasta",
               "isCorrect": false
             },
             {
-              "text": "Manga y animé",
+              "text": "Arroz",
+              "isCorrect": true
+            },
+            {
+              "text": "Carne",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 8,
-          "title": "En 'Call of Duty: Black Ops', ¿en qué guerra real está ambientado el juego?",
+          "title": "¿Cuáles son los ingredientes base del guacamole?",
           "bonus": false,
           "answers": [
             {
-              "text": "Guerra fría",
-              "isCorrect": true
-            },
-            {
-              "text": "Segunda Guerra Mundial",
+              "text": "Aguacate y tomate",
               "isCorrect": false
             },
             {
-              "text": "Guerra de Vietnam",
+              "text": "Aguacate y chile verde",
+              "isCorrect": true
+            },
+            {
+              "text": "Aguacate y ajo",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 9,
-          "title": "En Fallout 4, ¿con quién te encuentras en la parada Red Rocket?",
+          "title": "¿Cuál es el ingrediente principal del pesto?",
           "bonus": false,
           "answers": [
             {
-              "text": "Enclave",
-              "isCorrect": false
-            },
-            {
-              "text": "Albóndiga",
+              "text": "Albahaca",
               "isCorrect": true
             },
             {
-              "text": "Hermandad De Acero",
+              "text": "Garbanzos",
+              "isCorrect": false
+            },
+            {
+              "text": "Alcaparras",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 10,
-          "title": "¿En qué entrega de Fallout debes encontrar a tu padre?",
+          "title": "El pecorino se elabora a partir de leche de...",
           "bonus": false,
           "answers": [
             {
-              "text": "2",
-              "isCorrect": false
-            },
-            {
-              "text": "3",
+              "text": "Oveja",
               "isCorrect": true
             },
             {
-              "text": "4",
+              "text": "Vaca",
+              "isCorrect": false
+            },
+            {
+              "text": "Cabra",
               "isCorrect": false
             }
           ]
@@ -467,197 +467,197 @@
     },
     {
       "id": 3,
-      "name": "TECNO",
-      "imgURL": "/img/categoria-tecno.webp",
-      "color": "#c93c87",
-      "bonus": true,
+      "name": "Tragos y Bebidas",
+      "imgURL": "/img/categoria-tragos.webp",
+      "color": "#872847",
+      "bonus": false,
       "questions": [
         {
           "id": 1,
-          "title": "¿De dónde viene la empresa Huawei?",
+          "title": "¿Qué tipo de alcohol le pondrías a un Bloody Mary clásico?",
           "bonus": false,
           "answers": [
             {
-              "text": "Taiwán",
+              "text": "Gin",
               "isCorrect": false
             },
             {
-              "text": "China",
+              "text": "Vodka",
               "isCorrect": true
             },
             {
-              "text": "Japón",
+              "text": "Ron",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 2,
-          "title": "¿De qué país proviene la empresa Sony?",
+          "title": "¿Qué lleva un Cosmopolitan?",
           "bonus": false,
           "answers": [
             {
-              "text": "Corea del Sur",
+              "text": "Vodka, jugo de limón y jugo de arándano",
               "isCorrect": false
             },
             {
-              "text": "Japón",
+              "text": "Vodka, Cointreau, jugo de limón, y jugo de arándano",
               "isCorrect": true
             },
             {
-              "text": "Estados Unidos",
+              "text": "Ginebra, Cointreau, jugo de limón y jugo de arándano",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 3,
-          "title": "¿Cuál es la versión sucesora del sistema operativo Windows 8?",
+          "title": "¿De dónde es originario el Mojito?",
           "bonus": false,
           "answers": [
             {
-              "text": "Windows 10",
+              "text": "Cuba",
               "isCorrect": true
             },
             {
-              "text": "Windows 12",
+              "text": "México",
               "isCorrect": false
             },
             {
-              "text": "Windows 9",
+              "text": "Puerto Rico",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 4,
-          "title": "Samsung es una empresa de tecnología proveniente de Asia... ¿de qué país es?",
+          "title": "¿Cuál de las siguientes bebidas se prepara con ron?",
           "bonus": false,
           "answers": [
             {
-              "text": "Corea del Sur",
+              "text": "Martini",
+              "isCorrect": false
+            },
+            {
+              "text": "Gimlet",
+              "isCorrect": false
+            },
+            {
+              "text": "Piña Colada",
               "isCorrect": true
-            },
-            {
-              "text": "China",
-              "isCorrect": false
-            },
-            {
-              "text": "Japón",
-              "isCorrect": false
             }
           ]
         },
         {
           "id": 5,
-          "title": "Spotify es una aplicación de …",
+          "title": "¿De qué país es característico el Pitorro?",
           "bonus": false,
           "answers": [
             {
-              "text": "Series y películas",
-              "isCorrect": false
-            },
-            {
-              "text": "Música",
+              "text": "Puerto Rico",
               "isCorrect": true
             },
             {
-              "text": "Lectura",
+              "text": "Panamá",
+              "isCorrect": false
+            },
+            {
+              "text": "Costa Rica",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 6,
-          "title": "El primer iPhone salió en al año…",
+          "title": "El ginger ale es una bebida...",
           "bonus": false,
           "answers": [
             {
-              "text": "2007",
-              "isCorrect": true
-            },
-            {
-              "text": "2006",
+              "text": "Energética",
               "isCorrect": false
             },
             {
-              "text": "2010",
+              "text": "De extractos",
+              "isCorrect": true
+            },
+            {
+              "text": "Gaseosa",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 7,
-          "title": "¿En qué año fue fundado Facebook?",
+          "title": "¿Que agua tiene efectos saludables para la salud?",
           "bonus": false,
           "answers": [
             {
-              "text": "1985",
-              "isCorrect": false
-            },
-            {
-              "text": "1999",
-              "isCorrect": false
-            },
-            {
-              "text": "2004",
+              "text": "Mineral",
               "isCorrect": true
+            },
+            {
+              "text": "De manantial",
+              "isCorrect": false
+            },
+            {
+              "text": "Carbonatada",
+              "isCorrect": false
             }
           ]
         },
         {
           "id": 8,
-          "title": "¿Cuál de estos servicios de streaming NO existe?",
+          "title": "¿Para mezclar dos ingredientes qué maquina se usa?",
           "bonus": false,
           "answers": [
             {
-              "text": "Netflix",
+              "text": "Exprimidor",
               "isCorrect": false
             },
             {
-              "text": "Nickelodeon +",
+              "text": "Procesador de alimentos",
+              "isCorrect": false
+            },
+            {
+              "text": "Licuadora",
               "isCorrect": true
-            },
-            {
-              "text": "Disney +",
-              "isCorrect": false
             }
           ]
         },
         {
           "id": 9,
-          "title": "El sistema operativo Windows fue creado por…",
+          "title": "¿Qué aguas facilitan la digestión y estimulan el apetito?",
           "bonus": false,
           "answers": [
             {
-              "text": "Microsoft",
+              "text": "Minerales",
+              "isCorrect": false
+            },
+            {
+              "text": "De manantial",
+              "isCorrect": false
+            },
+            {
+              "text": "Carbonatadas",
               "isCorrect": true
-            },
-            {
-              "text": "IBM",
-              "isCorrect": false
-            },
-            {
-              "text": "Linux",
-              "isCorrect": false
             }
           ]
         },
         {
           "id": 10,
-          "title": "¿Qué significa la tecla Ctrl en los teclados de computadora?",
+          "title": "¿Que bebida caliente es muy popular en Argentina y Uruguay?",
           "bonus": false,
           "answers": [
             {
-              "text": "Central",
+              "text": "Café",
               "isCorrect": false
             },
             {
-              "text": "Control",
+              "text": "Mate",
               "isCorrect": true
             },
             {
-              "text": "Code L",
+              "text": "Té",
               "isCorrect": false
             }
           ]
@@ -666,197 +666,197 @@
     },
     {
       "id": 4,
-      "name": "RETRO",
-      "imgURL": "/img/categoria-retro.webp",
-      "color": "#000000",
-      "bonus": true,
+      "name": "Lugares y Sabores",
+      "imgURL": "/img/categoria-lugares.webp",
+      "color": "#2D1230",
+      "bonus": false,
       "questions": [
         {
           "id": 1,
-          "title": "¿Qué año salió el Atari 2600?",
+          "title": "¿Qué ciudad alberga un festival anual de pierogies cada agosto?",
           "bonus": false,
           "answers": [
             {
-              "text": "1982",
+              "text": "Belgrado",
+              "isCorrect": false
+            },
+            {
+              "text": "Vilnius",
+              "isCorrect": false
+            },
+            {
+              "text": "Cracovia",
               "isCorrect": true
-            },
-            {
-              "text": "1983",
-              "isCorrect": false
-            },
-            {
-              "text": "1984",
-              "isCorrect": false
             }
           ]
         },
         {
           "id": 2,
-          "title": "¿Cuál de estas consolas fue creada por SEGA?",
+          "title": "¿Cuál de estas palabras no está relacionada con la cocina japonesa?",
           "bonus": false,
           "answers": [
             {
-              "text": "Super Nintendo",
-              "isCorrect": false
-            },
-            {
-              "text": "PlayStation",
-              "isCorrect": false
-            },
-            {
-              "text": "Mega Drive",
+              "text": "Kimchi",
               "isCorrect": true
+            },
+            {
+              "text": "Sukiyaki",
+              "isCorrect": false
+            },
+            {
+              "text": "Tonkatsu",
+              "isCorrect": false
             }
           ]
         },
         {
           "id": 3,
-          "title": "¿Cuál fue la primera consola de videojuegos portátil?",
+          "title": "¿Cuál es el origen de los Pretzels?",
           "bonus": false,
           "answers": [
             {
-              "text": "Game Boy",
-              "isCorrect": true
-            },
-            {
-              "text": "Atari Lynx",
+              "text": "Suiza",
               "isCorrect": false
             },
             {
-              "text": "PSP",
+              "text": "Alemania",
+              "isCorrect": true
+            },
+            {
+              "text": "Irlanda",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 4,
-          "title": "¿Qué consola utilizó cartuchos en vez de discos para sus juegos?",
+          "title": "¿De dónde salieron los pasteles de nata?",
           "bonus": false,
           "answers": [
             {
-              "text": "PlayStation",
-              "isCorrect": false
-            },
-            {
-              "text": "Xbox",
-              "isCorrect": false
-            },
-            {
-              "text": "Nintendo 64",
+              "text": "Portugal",
               "isCorrect": true
+            },
+            {
+              "text": "Argentina",
+              "isCorrect": false
+            },
+            {
+              "text": "Italia",
+              "isCorrect": false
             }
           ]
         },
         {
           "id": 5,
-          "title": "¿Cuál fue la consola más vendida de todos los tiempos?",
+          "title": "¿En qué lugar premiaron a los vendedores de comida callejera con un Michelin?",
           "bonus": false,
           "answers": [
             {
-              "text": "PlayStation 2",
-              "isCorrect": true
-            },
-            {
-              "text": "Xbox 360",
+              "text": "Hong Kong",
               "isCorrect": false
             },
             {
-              "text": "Nintendo Switch",
+              "text": "Singapur",
+              "isCorrect": true
+            },
+            {
+              "text": "Seúl",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 6,
-          "title": "¿En qué año se lanzó la consola PlayStation original?",
+          "title": "¿Dónde se originó la pizza?",
           "bonus": false,
           "answers": [
             {
-              "text": "1993",
+              "text": "Florencia",
               "isCorrect": false
             },
             {
-              "text": "1994",
+              "text": "Milan",
+              "isCorrect": false
+            },
+            {
+              "text": "Nápoles",
               "isCorrect": true
-            },
-            {
-              "text": "1995",
-              "isCorrect": false
             }
           ]
         },
         {
           "id": 7,
-          "title": "¿Cuál de estas consolas pertenece a la familia de Nintendo?",
+          "title": "¿Cuál es el refresco más antiguo de EE.UU.?",
           "bonus": false,
           "answers": [
             {
-              "text": "Dreamcast",
+              "text": "Mountain Dew",
               "isCorrect": false
             },
             {
-              "text": "GameCube",
+              "text": "Dr. Pepper",
               "isCorrect": true
             },
             {
-              "text": "Genesis",
+              "text": "Coca Cola",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 8,
-          "title": "¿Qué compañía desarrolló la consola Atari 2600?",
+          "title": "¿Quién inventó la fritura?",
           "bonus": false,
           "answers": [
             {
-              "text": "Atari",
+              "text": "Británicos",
+              "isCorrect": false
+            },
+            {
+              "text": "Franceses",
+              "isCorrect": false
+            },
+            {
+              "text": "Egipcios",
               "isCorrect": true
-            },
-            {
-              "text": "Nintendo",
-              "isCorrect": false
-            },
-            {
-              "text": "SEGA",
-              "isCorrect": false
             }
           ]
         },
         {
           "id": 9,
-          "title": "¿Qué consola tenía el eslogan 'It's thinking'?",
+          "title": "¿Cuál es el origen de las papas a la francesa?",
           "bonus": false,
           "answers": [
             {
-              "text": "PlayStation",
-              "isCorrect": false
-            },
-            {
-              "text": "Dreamcast",
+              "text": "Bélgica",
               "isCorrect": true
             },
             {
-              "text": "Game Boy",
+              "text": "Francia",
+              "isCorrect": false
+            },
+            {
+              "text": "Canadá",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 10,
-          "title": "¿Cuál fue la primera consola de videojuegos con gráficos 16-bit?",
+          "title": "¿Cuál es el nombre de la cerveza más famosa de Irlanda?",
           "bonus": false,
           "answers": [
             {
-              "text": "Super Nintendo",
+              "text": "Guiness",
               "isCorrect": true
             },
             {
-              "text": "NES",
+              "text": "Harp Lager",
               "isCorrect": false
             },
             {
-              "text": "Atari 7800",
+              "text": "O'hara's Celtic Stout",
               "isCorrect": false
             }
           ]
@@ -865,197 +865,197 @@
     },
     {
       "id": 5,
-      "name": "GAMERS",
-      "imgURL": "/img/categoria-gamers.webp",
-      "color": "#8daaa5",
-      "bonus": true,
+      "name": "Tips",
+      "imgURL": "/img/categoria-tips.webp",
+      "color": "#872847",
+      "bonus": false,
       "questions": [
         {
           "id": 1,
-          "title": "¿A qué equipo de Esports pertenece el gamer Jeanki?",
+          "title": "Si hablamos de concassé, hablamos de...",
           "bonus": false,
           "answers": [
             {
-              "text": "Krü",
+              "text": "Un postre de manzana",
               "isCorrect": false
             },
             {
-              "text": "Leviatán",
+              "text": "Un tipo de cocción que se hace a ciertas verduras",
               "isCorrect": false
             },
             {
-              "text": "Naguará",
+              "text": "Un tipo de corte",
               "isCorrect": true
             }
           ]
         },
         {
           "id": 2,
-          "title": "¿Qué gamer acompaña a Jeanki en el equipo Naguará?",
+          "title": "¿Qué significa ligar un alimento?",
           "bonus": false,
           "answers": [
             {
-              "text": "Yolo",
-              "isCorrect": false
-            },
-            {
-              "text": "Punicher",
+              "text": "Espesar con la ayuda de huevo, harina, etc.",
               "isCorrect": true
             },
             {
-              "text": "BarcaGamer",
+              "text": "Añadir salsa a un alimento",
+              "isCorrect": false
+            },
+            {
+              "text": "Utilizar especias en los ingredientes",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 3,
-          "title": "¿Cuál es la nacionalidad del gamer Jeanki?",
+          "title": "¿Para qué sirve un caldo corto?",
           "bonus": false,
           "answers": [
             {
-              "text": "Venezuela",
+              "text": "Para servir tras un banquete",
+              "isCorrect": false
+            },
+            {
+              "text": "Para quitar la grasa a la carne antes de cocinarla",
+              "isCorrect": false
+            },
+            {
+              "text": "Para alimentos que necesitan poca cocción",
               "isCorrect": true
-            },
-            {
-              "text": "Colombia",
-              "isCorrect": false
-            },
-            {
-              "text": "México",
-              "isCorrect": false
             }
           ]
         },
         {
           "id": 4,
-          "title": "¿Con qué juego se hizo conocido Jeanki?",
+          "title": "¿Qué es la técnica de confit?",
           "bonus": false,
           "answers": [
             {
-              "text": "Fortnite",
+              "text": "Nombre técnico de los alimentos caramelizados",
               "isCorrect": false
             },
             {
-              "text": "Free Fire",
+              "text": "Cocinar alimentos lentamente en azúcar o grasa",
               "isCorrect": true
             },
             {
-              "text": "Minecraft",
+              "text": "Técnica de quitar el dulzor natural de los alimentos",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 5,
-          "title": "¿Sobre qué tratan los últimos videos que Jeanki subió a su canal de YouTube?",
+          "title": "¿Qué es bardar una carne?",
           "bonus": false,
           "answers": [
             {
-              "text": "FC Mobile",
+              "text": "Sellarla antes de asarla",
+              "isCorrect": false
+            },
+            {
+              "text": "Trocearlo antes de cocinarla",
+              "isCorrect": false
+            },
+            {
+              "text": "Envolverla en tocino para que no se seque al cocinarla",
               "isCorrect": true
-            },
-            {
-              "text": "Ea Sports FC24",
-              "isCorrect": false
-            },
-            {
-              "text": "eFootball",
-              "isCorrect": false
             }
           ]
         },
         {
           "id": 6,
-          "title": "¿A qué equipo quiere ingresar Jeanki gracias a la ayuda de Team Gamers?",
+          "title": "¿Qué es un fumet?",
           "bonus": false,
           "answers": [
             {
-              "text": "Porcinos FC",
+              "text": "Una reducción de salsa de tomate",
               "isCorrect": false
             },
             {
-              "text": "Los Chamos FC",
+              "text": "Un fondo básico hecho de pescados y mariscos",
               "isCorrect": true
             },
             {
-              "text": "Rayados FC",
+              "text": "Un tipo de asado",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 7,
-          "title": "¿Cómo se llama el gamer venezolano que suele acompañar a Jeanki en sus videos?",
+          "title": "¿Cómo se llama la sartén de dos asas para freír?",
           "bonus": false,
           "answers": [
             {
-              "text": "Dojo Play",
+              "text": "Freidora",
               "isCorrect": false
             },
             {
-              "text": "Eloy TocaBlock",
+              "text": "Grasera",
               "isCorrect": false
             },
             {
-              "text": "TheHectorino",
+              "text": "Parisina",
               "isCorrect": true
             }
           ]
         },
         {
           "id": 8,
-          "title": "¿Cuántos seguidores tiene Jeanki en su canal de YouTube?",
+          "title": "¿Cuál es la temperatura máxima para freír en aceite de oliva?",
           "bonus": false,
           "answers": [
             {
-              "text": "3 millones",
-              "isCorrect": false
-            },
-            {
-              "text": "5 millones",
+              "text": "180ºC",
               "isCorrect": true
             },
             {
-              "text": "7 millones",
+              "text": "200ºC",
+              "isCorrect": false
+            },
+            {
+              "text": "170ºC",
               "isCorrect": false
             }
           ]
         },
         {
           "id": 9,
-          "title": "¿Qué contenido exclusivo creó Jeanki para Team Gamers?",
+          "title": "¿Es mejor cortar la carne antes o después de cocinarla?",
           "bonus": false,
           "answers": [
             {
-              "text": "Un video con tips",
-              "isCorrect": false
-            },
-            {
-              "text": "Un streaming",
-              "isCorrect": false
-            },
-            {
-              "text": "Una entrevista",
+              "text": "Antes",
               "isCorrect": true
+            },
+            {
+              "text": "Después",
+              "isCorrect": false
+            },
+            {
+              "text": "Depende de la receta",
+              "isCorrect": false
             }
           ]
         },
         {
           "id": 10,
-          "title": "¿En qué año nació Jeanki?",
+          "title": "¿Es mejor sazonar la carne antes de cocinarla?",
           "bonus": false,
           "answers": [
             {
-              "text": "1998",
-              "isCorrect": false
-            },
-            {
-              "text": "2000",
+              "text": "Sazonarla antes realza su sabor",
               "isCorrect": true
             },
             {
-              "text": "2002",
+              "text": " Después para un sabor más intenso",
+              "isCorrect": false
+            },
+            {
+              "text": "El sabor es siempre el mismo",
               "isCorrect": false
             }
           ]
