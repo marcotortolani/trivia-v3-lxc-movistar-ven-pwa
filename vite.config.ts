@@ -62,22 +62,22 @@ export default defineConfig({
         theme_color: '#000',
         icons: [
           {
-            src: '/public/logo-96x96.webp',
+            src: '/logo-96x96.webp',
             sizes: '96x96',
             type: 'image/webp',
           },
           {
-            src: '/public/logo-128x128.webp',
+            src: '/logo-128x128.webp',
             sizes: '128x128',
             type: 'image/webp',
           },
           {
-            src: '/public/logo-256x256.webp',
+            src: '/logo-256x256.webp',
             sizes: '256x256',
             type: 'image/webp',
           },
           {
-            src: '/public/logo-512x512.webp',
+            src: '/logo-512x512.webp',
             sizes: '512x512',
             type: 'image/webp',
           },
