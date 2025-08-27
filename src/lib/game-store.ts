@@ -1,6 +1,6 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
-import { Question, Category } from '@/types/type-config-data'
+import { Question, Category, MultilangText } from '@/types/type-config-data'
 import { encryptData, decryptData } from '@/services/encryptData'
 
 import configDataInitial from '@/data/configDataInitial.json'
@@ -8,21 +8,21 @@ const { categories } = configDataInitial
 
 const categoriesStateInitial = categories.map((cat) => ({
   id: cat.id,
-  name: cat.name,
+  name: cat.name as MultilangText,
   completed: false,
   questions: cat.questions.map((q) => ({ id: q.id, completed: false })),
 }))
 
 export interface CategoryState {
   id: number
-  name: string
+  name: MultilangText
   completed: boolean
   questions: { id: number; completed: boolean }[]
 }
 
 export interface SelectedCategory {
   id: number
-  name: string
+  name: MultilangText
   bonus: boolean
   image: string
 }
@@ -49,7 +49,7 @@ interface GameState {
     bonus,
   }: {
     id: number
-    name: string
+    name: MultilangText
     bonus: boolean
     image: string
   }) => void
@@ -125,12 +125,8 @@ export const useGameStore = create<GameState>()(
               return cat // Si no es la categoría objetivo, no la modifica.
             }),
           })),
-        setSelectedCategory: (category: {
-          id: number
-          name: string
-          bonus: boolean
-          image: string
-        }) => set({ selectedCategory: category }),
+        setSelectedCategory: (category: SelectedCategory) =>
+          set({ selectedCategory: category }),
         // setQuestions: (questions) => set({ questions }),
         setQuestions: (questions: Question[]) => {
           const encryptedQuestions = encryptData(questions) || ''

@@ -8,9 +8,10 @@ import { useQuestionStore } from '@/lib/questions/questions-store'
 import goldenRing from '/img/default/anillo-ruleta.webp'
 
 import blopSound from '@/assets/sound/blop.mp3'
+import { Lang } from '@/types/type-config-data'
 
 const StartScreen = () => {
-  const { colors, soundActive, dictionary } = useConfigStore()
+  const { colors, soundActive, dictionary, lang } = useConfigStore()
   const { selectedCategory } = useGameStore()
   const { setGameState } = useQuestionStore()
 
@@ -41,7 +42,7 @@ const StartScreen = () => {
           color: colors.title,
         }}
       >
-        {selectedCategory?.name}
+        {selectedCategory?.name[lang as Lang]}
       </h2>
       <div
         key="category-selected"
@@ -56,7 +57,7 @@ const StartScreen = () => {
           <img
             className="w-full h-full"
             src={selectedCategory?.image}
-            alt={selectedCategory?.name}
+            alt={selectedCategory?.name[lang as Lang]}
           />
         ) : (
           <div

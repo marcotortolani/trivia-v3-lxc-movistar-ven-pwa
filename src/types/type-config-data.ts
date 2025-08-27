@@ -1,6 +1,8 @@
+// src/types/type-config-data.ts
+
 export interface ConfigData {
   lastUpdated: string
-  lang: 'en' | 'es' | 'pt'
+  lang: Lang
   userData: {
     userId: string
     userName: string
@@ -56,20 +58,28 @@ export interface ConfigData {
   categories: Category[]
 }
 
+export type Lang = 'en' | 'es' | 'pt'
+
+export interface MultilangText {
+  en: string
+  es: string
+  pt: string
+}
+
 export type Answer = {
-  text: string
+  text: MultilangText
   isCorrect: boolean
 }
 
 export type Question = {
   id: number
-  title: string
+  title: MultilangText
   bonus?: boolean
   answers: Answer[]
 }
 export type Category = {
   id: number
-  name: string
+  name: MultilangText
   imgURL: string
   color: string
   bonus: boolean

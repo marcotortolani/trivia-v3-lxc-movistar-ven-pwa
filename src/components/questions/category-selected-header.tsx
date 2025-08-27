@@ -3,10 +3,11 @@ import { useGameStore } from '@/lib/game-store'
 import { useConfigStore } from '@/lib/config-store'
 
 import goldenRing from '/img/default/anillo-ruleta.webp'
+import { Lang } from '@/types/type-config-data'
 
 export default function CategorySelectedHeader() {
   const { selectedCategory } = useGameStore()
-  const { colors } = useConfigStore()
+  const { colors, lang } = useConfigStore()
   return (
     <motion.div
       key="category-selected"
@@ -34,14 +35,14 @@ export default function CategorySelectedHeader() {
         <img
           className="w-full h-full"
           src={selectedCategory?.image}
-          alt={selectedCategory?.name}
+          alt={selectedCategory?.name[lang as Lang]}
         />
       </div>
       <span
         className=" font-oswaldBold italic tracking-wider text-lg "
         style={{ color: colors.text }}
       >
-        {selectedCategory.name}
+        {selectedCategory.name[lang as Lang]}
       </span>
     </motion.div>
   )

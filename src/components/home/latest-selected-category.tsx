@@ -1,9 +1,10 @@
 import { motion } from 'framer-motion'
 import { useConfigStore } from '@/lib/config-store'
 import { useGameStore } from '@/lib/game-store'
+import { Lang } from '@/types/type-config-data'
 
 export default function LatestSelectedCategory() {
-  const { colors, dictionary } = useConfigStore()
+  const { colors, dictionary, lang } = useConfigStore()
   const { selectedCategory } = useGameStore()
 
   return (
@@ -25,7 +26,7 @@ export default function LatestSelectedCategory() {
     >
       {dictionary['Latest category played']}:{' '}
       <span className=" font-oswaldHeavyItalic text-xl ">
-        {selectedCategory.name}
+        {selectedCategory.name[lang as Lang]}
       </span>
     </motion.div>
   )

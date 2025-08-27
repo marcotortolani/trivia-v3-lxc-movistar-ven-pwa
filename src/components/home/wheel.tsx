@@ -11,6 +11,7 @@ import indicatorCategory from '/img/default/senalador-categoria-anillo.webp'
 import plasticSound from '@/assets/sound/plastic-trash.mp3'
 import rouletteSound from '@/assets/sound/roulette_wheel.mp3'
 import watterAttack from '@/assets/sound/watter-attack.mp3'
+import { Lang } from '@/types/type-config-data'
 
 const SPINS = 10
 const TIME_SPINNING = 3000 // miliseconds
@@ -22,7 +23,7 @@ export function Wheel() {
   const gameCompleted = useGameStore((state) =>
     state.categoriesState.every((category) => category.completed)
   )
-  const { categories, colors, images, soundActive } = useConfigStore()
+  const { categories, colors, images, soundActive, lang } = useConfigStore()
 
   const [playRoulette] = useSound(rouletteSound, {
     playbackRate: 1.1,
@@ -163,7 +164,7 @@ export function Wheel() {
 
               return (
                 <div
-                  key={`${index}-${category.name}`}
+                  key={`${index}-${category.name[lang as Lang]}`}
                   className={` ${
                     questionsAnswered >= totalQuestions &&
                     ' brightness-[60%] grayscale-[90%]'
@@ -187,7 +188,7 @@ export function Wheel() {
                     <div className=" relative w-full h-full ">
                       <img
                         src={category?.imgURL}
-                        alt={category.name}
+                        alt={category.name[lang as Lang]}
                         className="w-full h-full -rotate-0 z-50 object-cover"
                         style={{
                           transform: `rotate(${imageRotationBySec[totalCategories][index]}deg)`,

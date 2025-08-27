@@ -61,197 +61,361 @@
   "categories": [
     {
       "id": 1,
-      "name": "Chefs",
+      "name": {
+        "es": "Chefs",
+        "en": "Chefs",
+        "pt": "Chefs"
+      },
       "imgURL": "/img/categoria-chef.webp",
       "color": "#573951",
       "bonus": false,
       "questions": [
         {
           "id": 1,
-          "title": "¿Cuál fue el nombre de la primera chef mujer en recibir un premio Michelin?",
+          "title": {
+            "es": "¿Cuál fue el nombre de la primera chef mujer en recibir un premio Michelin?",
+            "en": "What was the name of the first female chef to receive a Michelin award?",
+            "pt": "Qual foi o nome da primeira chef mulher a receber um prêmio Michelin?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Eugénie Brazier",
+              "text": {
+                "es": "Eugénie Brazier",
+                "en": "Eugénie Brazier",
+                "pt": "Eugénie Brazier"
+              },
               "isCorrect": true
             },
             {
-              "text": "Marie Bourgeois",
+              "text": {
+                "es": "Marie Bourgeois",
+                "en": "Marie Bourgeois",
+                "pt": "Marie Bourgeois"
+              },
               "isCorrect": false
             },
             {
-              "text": "Marguerite Bise",
+              "text": {
+                "es": "Marguerite Bise",
+                "en": "Marguerite Bise",
+                "pt": "Marguerite Bise"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 2,
-          "title": "¿En qué institución culinaria se formó Julia Child?",
+          "title": {
+            "es": "¿En qué institución culinaria se formó Julia Child?",
+            "en": "At which culinary institution did Julia Child train?",
+            "pt": "Em qual instituição culinária Julia Child se formou?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Les Ateliers Ferrières",
+              "text": {
+                "es": "Les Ateliers Ferrières",
+                "en": "Les Ateliers Ferrières",
+                "pt": "Les Ateliers Ferrières"
+              },
               "isCorrect": false
             },
             {
-              "text": "Le Cordon Bleu",
+              "text": {
+                "es": "Le Cordon Bleu",
+                "en": "Le Cordon Bleu",
+                "pt": "Le Cordon Bleu"
+              },
               "isCorrect": true
             },
             {
-              "text": "Bordeaux-Gironde",
+              "text": {
+                "es": "Bordeaux-Gironde",
+                "en": "Bordeaux-Gironde",
+                "pt": "Bordeaux-Gironde"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 3,
-          "title": "¿Cuál es el país de nacimiento de Gordon Ramsay?",
+          "title": {
+            "es": "¿Cuál es el país de nacimiento de Gordon Ramsay?",
+            "en": "What is Gordon Ramsay's country of birth?",
+            "pt": "Qual é o país de nascimento de Gordon Ramsay?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Escocia",
+              "text": {
+                "es": "Escocia",
+                "en": "Scotland",
+                "pt": "Escócia"
+              },
               "isCorrect": true
             },
             {
-              "text": "Inglaterra",
+              "text": {
+                "es": "Inglaterra",
+                "en": "England",
+                "pt": "Inglaterra"
+              },
               "isCorrect": false
             },
             {
-              "text": "Gales",
+              "text": {
+                "es": "Gales",
+                "en": "Wales",
+                "pt": "País de Gales"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 4,
-          "title": "¿Cuál es el título del programa televisivo conducido por Gordon Ramsay?",
+          "title": {
+            "es": "¿Cuál es el título del programa televisivo conducido por Gordon Ramsay?",
+            "en": "What is the title of the television show hosted by Gordon Ramsay?",
+            "pt": "Qual é o título do programa de televisão apresentado por Gordon Ramsay?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Master Chef",
+              "text": {
+                "es": "Master Chef",
+                "en": "Master Chef",
+                "pt": "Master Chef"
+              },
               "isCorrect": true
             },
             {
-              "text": "Bake Off",
+              "text": {
+                "es": "Bake Off",
+                "en": "Bake Off",
+                "pt": "Bake Off"
+              },
               "isCorrect": false
             },
             {
-              "text": "Hell's Kitchen",
+              "text": {
+                "es": "Hell's Kitchen",
+                "en": "Hell's Kitchen",
+                "pt": "Hell's Kitchen"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 5,
-          "title": "¿Cómo se llama la institución fundada por Sumito Estévez?",
+          "title": {
+            "es": "¿Cómo se llama la institución fundada por Sumito Estévez?",
+            "en": "What is the name of the institution founded by Sumito Estévez?",
+            "pt": "Como se chama a instituição fundada por Sumito Estévez?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Instituto Gastronómico de Caracas",
+              "text": {
+                "es": "Instituto Gastronómico de Caracas",
+                "en": "Gastronomic Institute of Caracas",
+                "pt": "Instituto Gastronômico de Caracas"
+              },
               "isCorrect": false
             },
             {
-              "text": "Instituto Culinario de Caracas",
+              "text": {
+                "es": "Instituto Culinario de Caracas",
+                "en": "Culinary Institute of Caracas",
+                "pt": "Instituto Culinário de Caracas"
+              },
               "isCorrect": true
             },
             {
-              "text": "Instituto de Cocina Venezolana",
+              "text": {
+                "es": "Instituto de Cocina Venezolana",
+                "en": "Venezuelan Cooking Institute",
+                "pt": "Instituto de Cozinha Venezuelana"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 6,
-          "title": "¿Cuántos volúmenes comprende el libro 'La Cocina de Sumito'?",
+          "title": {
+            "es": "¿Cuántos volúmenes comprende el libro 'La Cocina de Sumito'?",
+            "en": "How many volumes does the book 'La Cocina de Sumito' comprise?",
+            "pt": "Quantos volumes compreende o livro 'La Cocina de Sumito'?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "13 tomos",
+              "text": {
+                "es": "13 tomos",
+                "en": "13 volumes",
+                "pt": "13 tomos"
+              },
               "isCorrect": false
             },
             {
-              "text": "14 tomos",
+              "text": {
+                "es": "14 tomos",
+                "en": "14 volumes",
+                "pt": "14 tomos"
+              },
               "isCorrect": false
             },
             {
-              "text": "15 tomos",
+              "text": {
+                "es": "15 tomos",
+                "en": "15 volumes",
+                "pt": "15 tomos"
+              },
               "isCorrect": true
             }
           ]
         },
         {
           "id": 7,
-          "title": "¿Qué distinción relevante obtuvo Ricardo Chaneton en el año 2022?",
+          "title": {
+            "es": "¿Qué distinción relevante obtuvo Ricardo Chaneton en el año 2022?",
+            "en": "What relevant distinction did Ricardo Chaneton obtain in 2022?",
+            "pt": "Que distinção relevante Ricardo Chaneton obteve no ano de 2022?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Michelin",
+              "text": {
+                "es": "Michelin",
+                "en": "Michelin",
+                "pt": "Michelin"
+              },
               "isCorrect": true
             },
             {
-              "text": "Zagat",
+              "text": {
+                "es": "Zagat",
+                "en": "Zagat",
+                "pt": "Zagat"
+              },
               "isCorrect": false
             },
             {
-              "text": "James Beard",
+              "text": {
+                "es": "James Beard",
+                "en": "James Beard",
+                "pt": "James Beard"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 8,
-          "title": "¿Dónde se encuentra ubicado el restaurante Mono de Ricardo Chaneton?",
+          "title": {
+            "es": "¿Dónde se encuentra ubicado el restaurante Mono de Ricardo Chaneton?",
+            "en": "Where is Ricardo Chaneton's restaurant Mono located?",
+            "pt": "Onde está localizado o restaurante Mono de Ricardo Chaneton?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Shangai",
+              "text": {
+                "es": "Shangai",
+                "en": "Shanghai",
+                "pt": "Xangai"
+              },
               "isCorrect": false
             },
             {
-              "text": "Hong Kong",
+              "text": {
+                "es": "Hong Kong",
+                "en": "Hong Kong",
+                "pt": "Hong Kong"
+              },
               "isCorrect": true
             },
             {
-              "text": "Tokio",
+              "text": {
+                "es": "Tokio",
+                "en": "Tokyo",
+                "pt": "Tóquio"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 9,
-          "title": "¿Cuál es el nombre del programa dirigido por Edgar Leal?",
+          "title": {
+            "es": "¿Cuál es el nombre del programa dirigido por Edgar Leal?",
+            "en": "What is the name of the program directed by Edgar Leal?",
+            "pt": "Qual é o nome do programa dirigido por Edgar Leal?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Casa Leal en Casa Club TV",
+              "text": {
+                "es": "Casa Leal en Casa Club TV",
+                "en": "Casa Leal on Casa Club TV",
+                "pt": "Casa Leal na Casa Club TV"
+              },
               "isCorrect": true
             },
             {
-              "text": "Casa Lean en TV",
+              "text": {
+                "es": "Casa Lean en TV",
+                "en": "Casa Lean on TV",
+                "pt": "Casa Lean na TV"
+              },
               "isCorrect": false
             },
             {
-              "text": "Casa Lean Club",
+              "text": {
+                "es": "Casa Lean Club",
+                "en": "Casa Lean Club",
+                "pt": "Casa Lean Club"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 10,
-          "title": "¿A cuál galardón fue nominada en dos ocasiones Ilma López?",
+          "title": {
+            "es": "¿A cuál galardón fue nominada en dos ocasiones Ilma López?",
+            "en": "For which award was Ilma López nominated twice?",
+            "pt": "Para qual prêmio Ilma López foi indicada em duas ocasiões?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Michelin",
+              "text": {
+                "es": "Michelin",
+                "en": "Michelin",
+                "pt": "Michelin"
+              },
               "isCorrect": false
             },
             {
-              "text": "Zagat",
+              "text": {
+                "es": "Zagat",
+                "en": "Zagat",
+                "pt": "Zagat"
+              },
               "isCorrect": false
             },
             {
-              "text": "James Beard",
+              "text": {
+                "es": "James Beard",
+                "en": "James Beard",
+                "pt": "James Beard"
+              },
               "isCorrect": true
             }
           ]
@@ -260,197 +424,361 @@
     },
     {
       "id": 2,
-      "name": "Recetas y Comidas",
+      "name": {
+        "es": "Recetas y Comidas",
+        "en": "Recipes and Food",
+        "pt": "Receitas e Comidas"
+      },
       "imgURL": "/img/categoria-recetas.webp",
       "color": "#2D1230",
       "bonus": false,
       "questions": [
         {
           "id": 1,
-          "title": "¿Qué fruta seca sale de las uvas?",
+          "title": {
+            "es": "¿Qué fruta seca sale de las uvas?",
+            "en": "What dried fruit comes from grapes?",
+            "pt": "Que fruta seca sai das uvas?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Anacardo",
+              "text": {
+                "es": "Anacardo",
+                "en": "Cashew",
+                "pt": "Castanha de caju"
+              },
               "isCorrect": false
             },
             {
-              "text": "Pasas",
+              "text": {
+                "es": "Pasas",
+                "en": "Raisins",
+                "pt": "Passas"
+              },
               "isCorrect": true
             },
             {
-              "text": "Ciruela",
+              "text": {
+                "es": "Ciruela",
+                "en": "Prune",
+                "pt": "Ameixa"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 2,
-          "title": "¿Cuál es el ingrediente principal del falafel?",
+          "title": {
+            "es": "¿Cuál es el ingrediente principal del falafel?",
+            "en": "What is the main ingredient of falafel?",
+            "pt": "Qual é o ingrediente principal do falafel?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Semillas de sésamo",
+              "text": {
+                "es": "Semillas de sésamo",
+                "en": "Sesame seeds",
+                "pt": "Sementes de gergelim"
+              },
               "isCorrect": false
             },
             {
-              "text": "Garbanzos",
+              "text": {
+                "es": "Garbanzos",
+                "en": "Chickpeas",
+                "pt": "Grão-de-bico"
+              },
               "isCorrect": true
             },
             {
-              "text": "Tomates",
+              "text": {
+                "es": "Tomates",
+                "en": "Tomatoes",
+                "pt": "Tomates"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 3,
-          "title": "¿El pescado crudo se cura agregándole qué ingrediente?",
+          "title": {
+            "es": "¿El pescado crudo se cura agregándole qué ingrediente?",
+            "en": "Raw fish is cured by adding what ingredient?",
+            "pt": "O peixe cru é curado adicionando qual ingrediente?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Jugos cítricos",
+              "text": {
+                "es": "Jugos cítricos",
+                "en": "Citrus juices",
+                "pt": "Sucos cítricos"
+              },
               "isCorrect": true
             },
             {
-              "text": "Vinagre",
+              "text": {
+                "es": "Vinagre",
+                "en": "Vinegar",
+                "pt": "Vinagre"
+              },
               "isCorrect": false
             },
             {
-              "text": "Aceite caliente",
+              "text": {
+                "es": "Aceite caliente",
+                "en": "Hot oil",
+                "pt": "Óleo quente"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 4,
-          "title": "¿Los arancini son unas albóndigas fritas de qué?",
+          "title": {
+            "es": "¿Los arancini son unas albóndigas fritas de qué?",
+            "en": "Arancini are fried balls made of what?",
+            "pt": "Os arancini são bolinhas fritas feitas de quê?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Spaguettis",
+              "text": {
+                "es": "Spaguettis",
+                "en": "Spaghetti",
+                "pt": "Espaguete"
+              },
               "isCorrect": false
             },
             {
-              "text": "Tomate",
+              "text": {
+                "es": "Tomate",
+                "en": "Tomato",
+                "pt": "Tomate"
+              },
               "isCorrect": false
             },
             {
-              "text": "Risotto",
+              "text": {
+                "es": "Risotto",
+                "en": "Risotto",
+                "pt": "Risotto"
+              },
               "isCorrect": true
             }
           ]
         },
         {
           "id": 5,
-          "title": "¿Qué ingredientes componen la dieta mediterránea?",
+          "title": {
+            "es": "¿Qué ingredientes componen la dieta mediterránea?",
+            "en": "What ingredients make up the Mediterranean diet?",
+            "pt": "Que ingredientes compõem a dieta mediterrânea?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Aceite de oliva, carnes y pollo",
+              "text": {
+                "es": "Aceite de oliva, carnes y pollo",
+                "en": "Olive oil, meats and chicken",
+                "pt": "Azeite de oliva, carnes e frango"
+              },
               "isCorrect": false
             },
             {
-              "text": "Aceite de oliva, harinas y mucho sol",
+              "text": {
+                "es": "Aceite de oliva, harinas y mucho sol",
+                "en": "Olive oil, flours and lots of sun",
+                "pt": "Azeite de oliva, farinhas e muito sol"
+              },
               "isCorrect": true
             },
             {
-              "text": "Aceite de oliva, leche y pan",
+              "text": {
+                "es": "Aceite de oliva, leche y pan",
+                "en": "Olive oil, milk and bread",
+                "pt": "Azeite de oliva, leite e pão"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 6,
-          "title": "El mole hace referencia a una variedad de salsas de origen",
+          "title": {
+            "es": "El mole hace referencia a una variedad de salsas de origen",
+            "en": "Mole refers to a variety of sauces of origin",
+            "pt": "O mole se refere a uma variedade de molhos de origem"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Brasileño",
+              "text": {
+                "es": "Brasileño",
+                "en": "Brazilian",
+                "pt": "Brasileira"
+              },
               "isCorrect": false
             },
             {
-              "text": "Mexicano",
+              "text": {
+                "es": "Mexicano",
+                "en": "Mexican",
+                "pt": "Mexicana"
+              },
               "isCorrect": true
             },
             {
-              "text": "Ecuatoriano",
+              "text": {
+                "es": "Ecuatoriano",
+                "en": "Ecuadorian",
+                "pt": "Equatoriana"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 7,
-          "title": "El risotto es un plato a base de...",
+          "title": {
+            "es": "El risotto es un plato a base de...",
+            "en": "Risotto is a dish based on...",
+            "pt": "O risotto é um prato à base de..."
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Pasta",
+              "text": {
+                "es": "Pasta",
+                "en": "Pasta",
+                "pt": "Massa"
+              },
               "isCorrect": false
             },
             {
-              "text": "Arroz",
+              "text": {
+                "es": "Arroz",
+                "en": "Rice",
+                "pt": "Arroz"
+              },
               "isCorrect": true
             },
             {
-              "text": "Carne",
+              "text": {
+                "es": "Carne",
+                "en": "Meat",
+                "pt": "Carne"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 8,
-          "title": "¿Cuáles son los ingredientes base del guacamole?",
+          "title": {
+            "es": "¿Cuáles son los ingredientes base del guacamole?",
+            "en": "What are the base ingredients of guacamole?",
+            "pt": "Quais são os ingredientes base do guacamole?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Aguacate y tomate",
+              "text": {
+                "es": "Aguacate y tomate",
+                "en": "Avocado and tomato",
+                "pt": "Abacate e tomate"
+              },
               "isCorrect": false
             },
             {
-              "text": "Aguacate y chile verde",
+              "text": {
+                "es": "Aguacate y chile verde",
+                "en": "Avocado and green chili",
+                "pt": "Abacate e pimenta verde"
+              },
               "isCorrect": true
             },
             {
-              "text": "Aguacate y ajo",
+              "text": {
+                "es": "Aguacate y ajo",
+                "en": "Avocado and garlic",
+                "pt": "Abacate e alho"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 9,
-          "title": "¿Cuál es el ingrediente principal del pesto?",
+          "title": {
+            "es": "¿Cuál es el ingrediente principal del pesto?",
+            "en": "What is the main ingredient of pesto?",
+            "pt": "Qual é o ingrediente principal do pesto?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Albahaca",
+              "text": {
+                "es": "Albahaca",
+                "en": "Basil",
+                "pt": "Manjericão"
+              },
               "isCorrect": true
             },
             {
-              "text": "Garbanzos",
+              "text": {
+                "es": "Garbanzos",
+                "en": "Chickpeas",
+                "pt": "Grão-de-bico"
+              },
               "isCorrect": false
             },
             {
-              "text": "Alcaparras",
+              "text": {
+                "es": "Alcaparras",
+                "en": "Capers",
+                "pt": "Alcaparras"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 10,
-          "title": "El pecorino se elabora a partir de leche de...",
+          "title": {
+            "es": "El pecorino se elabora a partir de leche de...",
+            "en": "Pecorino is made from milk of...",
+            "pt": "O pecorino é feito a partir de leite de..."
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Oveja",
+              "text": {
+                "es": "Oveja",
+                "en": "Sheep",
+                "pt": "Ovelha"
+              },
               "isCorrect": true
             },
             {
-              "text": "Vaca",
+              "text": {
+                "es": "Vaca",
+                "en": "Cow",
+                "pt": "Vaca"
+              },
               "isCorrect": false
             },
             {
-              "text": "Cabra",
+              "text": {
+                "es": "Cabra",
+                "en": "Goat",
+                "pt": "Cabra"
+              },
               "isCorrect": false
             }
           ]
@@ -459,197 +787,361 @@
     },
     {
       "id": 3,
-      "name": "Tragos y Bebidas",
+      "name": {
+        "es": "Tragos y Bebidas",
+        "en": "Drinks and Beverages",
+        "pt": "Drinks e Bebidas"
+      },
       "imgURL": "/img/categoria-tragos.webp",
       "color": "#872847",
       "bonus": false,
       "questions": [
         {
           "id": 1,
-          "title": "¿Qué tipo de alcohol le pondrías a un Bloody Mary clásico?",
+          "title": {
+            "es": "¿Qué tipo de alcohol le pondrías a un Bloody Mary clásico?",
+            "en": "What type of alcohol would you put in a classic Bloody Mary?",
+            "pt": "Que tipo de álcool você colocaria em um Bloody Mary clássico?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Gin",
+              "text": {
+                "es": "Gin",
+                "en": "Gin",
+                "pt": "Gin"
+              },
               "isCorrect": false
             },
             {
-              "text": "Vodka",
+              "text": {
+                "es": "Vodka",
+                "en": "Vodka",
+                "pt": "Vodka"
+              },
               "isCorrect": true
             },
             {
-              "text": "Ron",
+              "text": {
+                "es": "Ron",
+                "en": "Rum",
+                "pt": "Rum"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 2,
-          "title": "¿Qué lleva un Cosmopolitan?",
+          "title": {
+            "es": "¿Qué lleva un Cosmopolitan?",
+            "en": "What does a Cosmopolitan contain?",
+            "pt": "O que leva um Cosmopolitan?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Vodka, jugo de limón y jugo de arándano",
+              "text": {
+                "es": "Vodka, jugo de limón y jugo de arándano",
+                "en": "Vodka, lemon juice and cranberry juice",
+                "pt": "Vodka, suco de limão e suco de cranberry"
+              },
               "isCorrect": false
             },
             {
-              "text": "Vodka, Cointreau, jugo de limón, y jugo de arándano",
+              "text": {
+                "es": "Vodka, Cointreau, jugo de limón, y jugo de arándano",
+                "en": "Vodka, Cointreau, lemon juice, and cranberry juice",
+                "pt": "Vodka, Cointreau, suco de limão e suco de cranberry"
+              },
               "isCorrect": true
             },
             {
-              "text": "Ginebra, Cointreau, jugo de limón y jugo de arándano",
+              "text": {
+                "es": "Ginebra, Cointreau, jugo de limón y jugo de arándano",
+                "en": "Gin, Cointreau, lemon juice and cranberry juice",
+                "pt": "Gin, Cointreau, suco de limão e suco de cranberry"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 3,
-          "title": "¿De dónde es originario el Mojito?",
+          "title": {
+            "es": "¿De dónde es originario el Mojito?",
+            "en": "Where does the Mojito originate from?",
+            "pt": "De onde é originário o Mojito?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Cuba",
+              "text": {
+                "es": "Cuba",
+                "en": "Cuba",
+                "pt": "Cuba"
+              },
               "isCorrect": true
             },
             {
-              "text": "México",
+              "text": {
+                "es": "México",
+                "en": "Mexico",
+                "pt": "México"
+              },
               "isCorrect": false
             },
             {
-              "text": "Puerto Rico",
+              "text": {
+                "es": "Puerto Rico",
+                "en": "Puerto Rico",
+                "pt": "Porto Rico"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 4,
-          "title": "¿Cuál de las siguientes bebidas se prepara con ron?",
+          "title": {
+            "es": "¿Cuál de las siguientes bebidas se prepara con ron?",
+            "en": "Which of the following drinks is made with rum?",
+            "pt": "Qual das seguintes bebidas é preparada com rum?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Martini",
+              "text": {
+                "es": "Martini",
+                "en": "Martini",
+                "pt": "Martini"
+              },
               "isCorrect": false
             },
             {
-              "text": "Gimlet",
+              "text": {
+                "es": "Gimlet",
+                "en": "Gimlet",
+                "pt": "Gimlet"
+              },
               "isCorrect": false
             },
             {
-              "text": "Piña Colada",
+              "text": {
+                "es": "Piña Colada",
+                "en": "Piña Colada",
+                "pt": "Piña Colada"
+              },
               "isCorrect": true
             }
           ]
         },
         {
           "id": 5,
-          "title": "¿De qué país es característico el Pitorro?",
+          "title": {
+            "es": "¿De qué país es característico el Pitorro?",
+            "en": "Which country is Pitorro characteristic of?",
+            "pt": "De que país é característico o Pitorro?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Puerto Rico",
+              "text": {
+                "es": "Puerto Rico",
+                "en": "Puerto Rico",
+                "pt": "Porto Rico"
+              },
               "isCorrect": true
             },
             {
-              "text": "Panamá",
+              "text": {
+                "es": "Panamá",
+                "en": "Panama",
+                "pt": "Panamá"
+              },
               "isCorrect": false
             },
             {
-              "text": "Costa Rica",
+              "text": {
+                "es": "Costa Rica",
+                "en": "Costa Rica",
+                "pt": "Costa Rica"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 6,
-          "title": "El ginger ale es una bebida...",
+          "title": {
+            "es": "El ginger ale es una bebida...",
+            "en": "Ginger ale is a... drink",
+            "pt": "O ginger ale é uma bebida..."
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Energética",
+              "text": {
+                "es": "Energética",
+                "en": "Energy",
+                "pt": "Energética"
+              },
               "isCorrect": false
             },
             {
-              "text": "De extractos",
+              "text": {
+                "es": "De extractos",
+                "en": "Extract-based",
+                "pt": "De extratos"
+              },
               "isCorrect": true
             },
             {
-              "text": "Gaseosa",
+              "text": {
+                "es": "Gaseosa",
+                "en": "Carbonated",
+                "pt": "Gasosa"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 7,
-          "title": "¿Que agua tiene efectos saludables para la salud?",
+          "title": {
+            "es": "¿Que agua tiene efectos saludables para la salud?",
+            "en": "What water has healthy effects for health?",
+            "pt": "Que água tem efeitos saudáveis para a saúde?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Mineral",
+              "text": {
+                "es": "Mineral",
+                "en": "Mineral",
+                "pt": "Mineral"
+              },
               "isCorrect": true
             },
             {
-              "text": "De manantial",
+              "text": {
+                "es": "De manantial",
+                "en": "Spring",
+                "pt": "De nascente"
+              },
               "isCorrect": false
             },
             {
-              "text": "Carbonatada",
+              "text": {
+                "es": "Carbonatada",
+                "en": "Carbonated",
+                "pt": "Gaseificada"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 8,
-          "title": "¿Para mezclar dos ingredientes qué maquina se usa?",
+          "title": {
+            "es": "¿Para mezclar dos ingredientes qué maquina se usa?",
+            "en": "What machine is used to mix two ingredients?",
+            "pt": "Para misturar dois ingredientes que máquina se usa?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Exprimidor",
+              "text": {
+                "es": "Exprimidor",
+                "en": "Juicer",
+                "pt": "Espremedor"
+              },
               "isCorrect": false
             },
             {
-              "text": "Procesador de alimentos",
+              "text": {
+                "es": "Procesador de alimentos",
+                "en": "Food processor",
+                "pt": "Processador de alimentos"
+              },
               "isCorrect": false
             },
             {
-              "text": "Licuadora",
+              "text": {
+                "es": "Licuadora",
+                "en": "Blender",
+                "pt": "Liquidificador"
+              },
               "isCorrect": true
             }
           ]
         },
         {
           "id": 9,
-          "title": "¿Qué aguas facilitan la digestión y estimulan el apetito?",
+          "title": {
+            "es": "¿Qué aguas facilitan la digestión y estimulan el apetito?",
+            "en": "What waters facilitate digestion and stimulate appetite?",
+            "pt": "Que águas facilitam a digestão e estimulam o apetite?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Minerales",
+              "text": {
+                "es": "Minerales",
+                "en": "Mineral",
+                "pt": "Minerais"
+              },
               "isCorrect": false
             },
             {
-              "text": "De manantial",
+              "text": {
+                "es": "De manantial",
+                "en": "Spring",
+                "pt": "De nascente"
+              },
               "isCorrect": false
             },
             {
-              "text": "Carbonatadas",
+              "text": {
+                "es": "Carbonatadas",
+                "en": "Carbonated",
+                "pt": "Gaseificadas"
+              },
               "isCorrect": true
             }
           ]
         },
         {
           "id": 10,
-          "title": "¿Que bebida caliente es muy popular en Argentina y Uruguay?",
+          "title": {
+            "es": "¿Que bebida caliente es muy popular en Argentina y Uruguay?",
+            "en": "What hot drink is very popular in Argentina and Uruguay?",
+            "pt": "Que bebida quente é muito popular na Argentina e Uruguai?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Café",
+              "text": {
+                "es": "Café",
+                "en": "Coffee",
+                "pt": "Café"
+              },
               "isCorrect": false
             },
             {
-              "text": "Mate",
+              "text": {
+                "es": "Mate",
+                "en": "Mate",
+                "pt": "Mate"
+              },
               "isCorrect": true
             },
             {
-              "text": "Té",
+              "text": {
+                "es": "Té",
+                "en": "Tea",
+                "pt": "Chá"
+              },
               "isCorrect": false
             }
           ]
@@ -658,197 +1150,361 @@
     },
     {
       "id": 4,
-      "name": "Lugares y Sabores",
+      "name": {
+        "es": "Lugares y Sabores",
+        "en": "Places and Flavors",
+        "pt": "Lugares e Sabores"
+      },
       "imgURL": "/img/categoria-lugares.webp",
       "color": "#2D1230",
       "bonus": false,
       "questions": [
         {
           "id": 1,
-          "title": "¿Qué ciudad alberga un festival anual de pierogies cada agosto?",
+          "title": {
+            "es": "¿Qué ciudad alberga un festival anual de pierogies cada agosto?",
+            "en": "What city hosts an annual pierogi festival every August?",
+            "pt": "Que cidade sedia um festival anual de pierogies todo agosto?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Belgrado",
+              "text": {
+                "es": "Belgrado",
+                "en": "Belgrade",
+                "pt": "Belgrado"
+              },
               "isCorrect": false
             },
             {
-              "text": "Vilnius",
+              "text": {
+                "es": "Vilnius",
+                "en": "Vilnius",
+                "pt": "Vilnius"
+              },
               "isCorrect": false
             },
             {
-              "text": "Cracovia",
+              "text": {
+                "es": "Cracovia",
+                "en": "Krakow",
+                "pt": "Cracóvia"
+              },
               "isCorrect": true
             }
           ]
         },
         {
           "id": 2,
-          "title": "¿Cuál de estas palabras no está relacionada con la cocina japonesa?",
+          "title": {
+            "es": "¿Cuál de estas palabras no está relacionada con la cocina japonesa?",
+            "en": "Which of these words is not related to Japanese cuisine?",
+            "pt": "Qual dessas palavras não está relacionada com a cozinha japonesa?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Kimchi",
+              "text": {
+                "es": "Kimchi",
+                "en": "Kimchi",
+                "pt": "Kimchi"
+              },
               "isCorrect": true
             },
             {
-              "text": "Sukiyaki",
+              "text": {
+                "es": "Sukiyaki",
+                "en": "Sukiyaki",
+                "pt": "Sukiyaki"
+              },
               "isCorrect": false
             },
             {
-              "text": "Tonkatsu",
+              "text": {
+                "es": "Tonkatsu",
+                "en": "Tonkatsu",
+                "pt": "Tonkatsu"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 3,
-          "title": "¿Cuál es el origen de los Pretzels?",
+          "title": {
+            "es": "¿Cuál es el origen de los Pretzels?",
+            "en": "What is the origin of Pretzels?",
+            "pt": "Qual é a origem dos Pretzels?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Suiza",
+              "text": {
+                "es": "Suiza",
+                "en": "Switzerland",
+                "pt": "Suíça"
+              },
               "isCorrect": false
             },
             {
-              "text": "Alemania",
+              "text": {
+                "es": "Alemania",
+                "en": "Germany",
+                "pt": "Alemanha"
+              },
               "isCorrect": true
             },
             {
-              "text": "Irlanda",
+              "text": {
+                "es": "Irlanda",
+                "en": "Ireland",
+                "pt": "Irlanda"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 4,
-          "title": "¿De dónde salieron los pasteles de nata?",
+          "title": {
+            "es": "¿De dónde salieron los pasteles de nata?",
+            "en": "Where did custard tarts originate from?",
+            "pt": "De onde saíram os pastéis de nata?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Portugal",
+              "text": {
+                "es": "Portugal",
+                "en": "Portugal",
+                "pt": "Portugal"
+              },
               "isCorrect": true
             },
             {
-              "text": "Argentina",
+              "text": {
+                "es": "Argentina",
+                "en": "Argentina",
+                "pt": "Argentina"
+              },
               "isCorrect": false
             },
             {
-              "text": "Italia",
+              "text": {
+                "es": "Italia",
+                "en": "Italy",
+                "pt": "Itália"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 5,
-          "title": "¿En qué lugar premiaron a los vendedores de comida callejera con un Michelin?",
+          "title": {
+            "es": "¿En qué lugar premiaron a los vendedores de comida callejera con un Michelin?",
+            "en": "In what place were street food vendors awarded a Michelin star?",
+            "pt": "Em que lugar premiaram os vendedores de comida de rua com um Michelin?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Hong Kong",
+              "text": {
+                "es": "Hong Kong",
+                "en": "Hong Kong",
+                "pt": "Hong Kong"
+              },
               "isCorrect": false
             },
             {
-              "text": "Singapur",
+              "text": {
+                "es": "Singapur",
+                "en": "Singapore",
+                "pt": "Singapura"
+              },
               "isCorrect": true
             },
             {
-              "text": "Seúl",
+              "text": {
+                "es": "Seúl",
+                "en": "Seoul",
+                "pt": "Seul"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 6,
-          "title": "¿Dónde se originó la pizza?",
+          "title": {
+            "es": "¿Dónde se originó la pizza?",
+            "en": "Where did pizza originate?",
+            "pt": "Onde se originou a pizza?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Florencia",
+              "text": {
+                "es": "Florencia",
+                "en": "Florence",
+                "pt": "Florença"
+              },
               "isCorrect": false
             },
             {
-              "text": "Milan",
+              "text": {
+                "es": "Milan",
+                "en": "Milan",
+                "pt": "Milão"
+              },
               "isCorrect": false
             },
             {
-              "text": "Nápoles",
+              "text": {
+                "es": "Nápoles",
+                "en": "Naples",
+                "pt": "Nápoles"
+              },
               "isCorrect": true
             }
           ]
         },
         {
           "id": 7,
-          "title": "¿Cuál es el refresco más antiguo de EE.UU.?",
+          "title": {
+            "es": "¿Cuál es el refresco más antiguo de EE.UU.?",
+            "en": "What is the oldest soft drink in the U.S.?",
+            "pt": "Qual é o refrigerante mais antigo dos EUA?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Mountain Dew",
+              "text": {
+                "es": "Mountain Dew",
+                "en": "Mountain Dew",
+                "pt": "Mountain Dew"
+              },
               "isCorrect": false
             },
             {
-              "text": "Dr. Pepper",
+              "text": {
+                "es": "Dr. Pepper",
+                "en": "Dr. Pepper",
+                "pt": "Dr. Pepper"
+              },
               "isCorrect": true
             },
             {
-              "text": "Coca Cola",
+              "text": {
+                "es": "Coca Cola",
+                "en": "Coca Cola",
+                "pt": "Coca Cola"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 8,
-          "title": "¿Quién inventó la fritura?",
+          "title": {
+            "es": "¿Quién inventó la fritura?",
+            "en": "Who invented frying?",
+            "pt": "Quem inventou a fritura?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Británicos",
+              "text": {
+                "es": "Británicos",
+                "en": "British",
+                "pt": "Britânicos"
+              },
               "isCorrect": false
             },
             {
-              "text": "Franceses",
+              "text": {
+                "es": "Franceses",
+                "en": "French",
+                "pt": "Franceses"
+              },
               "isCorrect": false
             },
             {
-              "text": "Egipcios",
+              "text": {
+                "es": "Egipcios",
+                "en": "Egyptians",
+                "pt": "Egípcios"
+              },
               "isCorrect": true
             }
           ]
         },
         {
           "id": 9,
-          "title": "¿Cuál es el origen de las papas a la francesa?",
+          "title": {
+            "es": "¿Cuál es el origen de las papas a la francesa?",
+            "en": "What is the origin of French fries?",
+            "pt": "Qual é a origem das batatas fritas?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Bélgica",
+              "text": {
+                "es": "Bélgica",
+                "en": "Belgium",
+                "pt": "Bélgica"
+              },
               "isCorrect": true
             },
             {
-              "text": "Francia",
+              "text": {
+                "es": "Francia",
+                "en": "France",
+                "pt": "França"
+              },
               "isCorrect": false
             },
             {
-              "text": "Canadá",
+              "text": {
+                "es": "Canadá",
+                "en": "Canada",
+                "pt": "Canadá"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 10,
-          "title": "¿Cuál es el nombre de la cerveza más famosa de Irlanda?",
+          "title": {
+            "es": "¿Cuál es el nombre de la cerveza más famosa de Irlanda?",
+            "en": "What is the name of the most famous beer from Ireland?",
+            "pt": "Qual é o nome da cerveja mais famosa da Irlanda?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Guiness",
+              "text": {
+                "es": "Guiness",
+                "en": "Guinness",
+                "pt": "Guinness"
+              },
               "isCorrect": true
             },
             {
-              "text": "Harp Lager",
+              "text": {
+                "es": "Harp Lager",
+                "en": "Harp Lager",
+                "pt": "Harp Lager"
+              },
               "isCorrect": false
             },
             {
-              "text": "O'hara's Celtic Stout",
+              "text": {
+                "es": "O'hara's Celtic Stout",
+                "en": "O'hara's Celtic Stout",
+                "pt": "O'hara's Celtic Stout"
+              },
               "isCorrect": false
             }
           ]
@@ -857,197 +1513,361 @@
     },
     {
       "id": 5,
-      "name": "Tips",
+      "name": {
+        "es": "Tips",
+        "en": "Tips",
+        "pt": "Dicas"
+      },
       "imgURL": "/img/categoria-tips.webp",
       "color": "#872847",
       "bonus": false,
       "questions": [
         {
           "id": 1,
-          "title": "Si hablamos de concassé, hablamos de...",
+          "title": {
+            "es": "Si hablamos de concassé, hablamos de...",
+            "en": "If we talk about concassé, we're talking about...",
+            "pt": "Se falamos de concassé, falamos de..."
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Un postre de manzana",
+              "text": {
+                "es": "Un postre de manzana",
+                "en": "An apple dessert",
+                "pt": "Uma sobremesa de maçã"
+              },
               "isCorrect": false
             },
             {
-              "text": "Un tipo de cocción que se hace a ciertas verduras",
+              "text": {
+                "es": "Un tipo de cocción que se hace a ciertas verduras",
+                "en": "A type of cooking done to certain vegetables",
+                "pt": "Um tipo de cozimento feito em certas verduras"
+              },
               "isCorrect": false
             },
             {
-              "text": "Un tipo de corte",
+              "text": {
+                "es": "Un tipo de corte",
+                "en": "A type of cut",
+                "pt": "Um tipo de corte"
+              },
               "isCorrect": true
             }
           ]
         },
         {
           "id": 2,
-          "title": "¿Qué significa ligar un alimento?",
+          "title": {
+            "es": "¿Qué significa ligar un alimento?",
+            "en": "What does it mean to bind a food?",
+            "pt": "O que significa ligar um alimento?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Espesar con la ayuda de huevo, harina, etc.",
+              "text": {
+                "es": "Espesar con la ayuda de huevo, harina, etc.",
+                "en": "Thicken with the help of egg, flour, etc.",
+                "pt": "Engrossar com a ajuda de ovo, farinha, etc."
+              },
               "isCorrect": true
             },
             {
-              "text": "Añadir salsa a un alimento",
+              "text": {
+                "es": "Añadir salsa a un alimento",
+                "en": "Add sauce to a food",
+                "pt": "Adicionar molho a um alimento"
+              },
               "isCorrect": false
             },
             {
-              "text": "Utilizar especias en los ingredientes",
+              "text": {
+                "es": "Utilizar especias en los ingredientes",
+                "en": "Use spices in the ingredients",
+                "pt": "Utilizar especiarias nos ingredientes"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 3,
-          "title": "¿Para qué sirve un caldo corto?",
+          "title": {
+            "es": "¿Para qué sirve un caldo corto?",
+            "en": "What is a court bouillon used for?",
+            "pt": "Para que serve um caldo curto?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Para servir tras un banquete",
+              "text": {
+                "es": "Para servir tras un banquete",
+                "en": "To serve after a banquet",
+                "pt": "Para servir após um banquete"
+              },
               "isCorrect": false
             },
             {
-              "text": "Para quitar la grasa a la carne antes de cocinarla",
+              "text": {
+                "es": "Para quitar la grasa a la carne antes de cocinarla",
+                "en": "To remove fat from meat before cooking",
+                "pt": "Para tirar a gordura da carne antes de cozinhá-la"
+              },
               "isCorrect": false
             },
             {
-              "text": "Para alimentos que necesitan poca cocción",
+              "text": {
+                "es": "Para alimentos que necesitan poca cocción",
+                "en": "For foods that need little cooking",
+                "pt": "Para alimentos que precisam de pouco cozimento"
+              },
               "isCorrect": true
             }
           ]
         },
         {
           "id": 4,
-          "title": "¿Qué es la técnica de confit?",
+          "title": {
+            "es": "¿Qué es la técnica de confit?",
+            "en": "What is the confit technique?",
+            "pt": "O que é a técnica de confit?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Nombre técnico de los alimentos caramelizados",
+              "text": {
+                "es": "Nombre técnico de los alimentos caramelizados",
+                "en": "Technical name for caramelized foods",
+                "pt": "Nome técnico dos alimentos caramelizados"
+              },
               "isCorrect": false
             },
             {
-              "text": "Cocinar alimentos lentamente en azúcar o grasa",
+              "text": {
+                "es": "Cocinar alimentos lentamente en azúcar o grasa",
+                "en": "Cook foods slowly in sugar or fat",
+                "pt": "Cozinhar alimentos lentamente no açúcar ou gordura"
+              },
               "isCorrect": true
             },
             {
-              "text": "Técnica de quitar el dulzor natural de los alimentos",
+              "text": {
+                "es": "Técnica de quitar el dulzor natural de los alimentos",
+                "en": "Technique to remove natural sweetness from foods",
+                "pt": "Técnica para tirar o doce natural dos alimentos"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 5,
-          "title": "¿Qué es bardar una carne?",
+          "title": {
+            "es": "¿Qué es bardar una carne?",
+            "en": "What does it mean to bard meat?",
+            "pt": "O que é bardar uma carne?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Sellarla antes de asarla",
+              "text": {
+                "es": "Sellarla antes de asarla",
+                "en": "Sear it before roasting",
+                "pt": "Selar antes de assá-la"
+              },
               "isCorrect": false
             },
             {
-              "text": "Trocearlo antes de cocinarla",
+              "text": {
+                "es": "Trocearlo antes de cocinarla",
+                "en": "Cut it up before cooking",
+                "pt": "Cortá-la em pedaços antes de cozinhá-la"
+              },
               "isCorrect": false
             },
             {
-              "text": "Envolverla en tocino para que no se seque al cocinarla",
+              "text": {
+                "es": "Envolverla en tocino para que no se seque al cocinarla",
+                "en": "Wrap it in bacon so it doesn't dry out when cooking",
+                "pt": "Envolvê-la em bacon para que não resseque ao cozinhá-la"
+              },
               "isCorrect": true
             }
           ]
         },
         {
           "id": 6,
-          "title": "¿Qué es un fumet?",
+          "title": {
+            "es": "¿Qué es un fumet?",
+            "en": "What is a fumet?",
+            "pt": "O que é um fumet?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Una reducción de salsa de tomate",
+              "text": {
+                "es": "Una reducción de salsa de tomate",
+                "en": "A tomato sauce reduction",
+                "pt": "Uma redução de molho de tomate"
+              },
               "isCorrect": false
             },
             {
-              "text": "Un fondo básico hecho de pescados y mariscos",
+              "text": {
+                "es": "Un fondo básico hecho de pescados y mariscos",
+                "en": "A basic stock made from fish and seafood",
+                "pt": "Um fundo básico feito de peixes e frutos do mar"
+              },
               "isCorrect": true
             },
             {
-              "text": "Un tipo de asado",
+              "text": {
+                "es": "Un tipo de asado",
+                "en": "A type of roast",
+                "pt": "Um tipo de assado"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 7,
-          "title": "¿Cómo se llama la sartén de dos asas para freír?",
+          "title": {
+            "es": "¿Cómo se llama la sartén de dos asas para freír?",
+            "en": "What is the two-handled frying pan called?",
+            "pt": "Como se chama a frigideira de duas alças para fritar?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Freidora",
+              "text": {
+                "es": "Freidora",
+                "en": "Fryer",
+                "pt": "Fritadeira"
+              },
               "isCorrect": false
             },
             {
-              "text": "Grasera",
+              "text": {
+                "es": "Grasera",
+                "en": "Grease pan",
+                "pt": "Panela de gordura"
+              },
               "isCorrect": false
             },
             {
-              "text": "Parisina",
+              "text": {
+                "es": "Parisina",
+                "en": "Parisienne",
+                "pt": "Parisiense"
+              },
               "isCorrect": true
             }
           ]
         },
         {
           "id": 8,
-          "title": "¿Cuál es la temperatura máxima para freír en aceite de oliva?",
+          "title": {
+            "es": "¿Cuál es la temperatura máxima para freír en aceite de oliva?",
+            "en": "What is the maximum temperature for frying in olive oil?",
+            "pt": "Qual é a temperatura máxima para fritar no azeite de oliva?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "180ºC",
+              "text": {
+                "es": "180ºC",
+                "en": "180ºC",
+                "pt": "180ºC"
+              },
               "isCorrect": true
             },
             {
-              "text": "200ºC",
+              "text": {
+                "es": "200ºC",
+                "en": "200ºC",
+                "pt": "200ºC"
+              },
               "isCorrect": false
             },
             {
-              "text": "170ºC",
+              "text": {
+                "es": "170ºC",
+                "en": "170ºC",
+                "pt": "170ºC"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 9,
-          "title": "¿Es mejor cortar la carne antes o después de cocinarla?",
+          "title": {
+            "es": "¿Es mejor cortar la carne antes o después de cocinarla?",
+            "en": "Is it better to cut meat before or after cooking it?",
+            "pt": "É melhor cortar a carne antes ou depois de cozinhá-la?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Antes",
+              "text": {
+                "es": "Antes",
+                "en": "Before",
+                "pt": "Antes"
+              },
               "isCorrect": true
             },
             {
-              "text": "Después",
+              "text": {
+                "es": "Después",
+                "en": "After",
+                "pt": "Depois"
+              },
               "isCorrect": false
             },
             {
-              "text": "Depende de la receta",
+              "text": {
+                "es": "Depende de la receta",
+                "en": "It depends on the recipe",
+                "pt": "Depende da receita"
+              },
               "isCorrect": false
             }
           ]
         },
         {
           "id": 10,
-          "title": "¿Es mejor sazonar la carne antes de cocinarla?",
+          "title": {
+            "es": "¿Es mejor sazonar la carne antes de cocinarla?",
+            "en": "Is it better to season meat before cooking it?",
+            "pt": "É melhor temperar a carne antes de cozinhá-la?"
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "Sazonarla antes realza su sabor",
+              "text": {
+                "es": "Sazonarla antes realza su sabor",
+                "en": "Seasoning it before enhances its flavor",
+                "pt": "Temperá-la antes realça seu sabor"
+              },
               "isCorrect": true
             },
             {
-              "text": " Después para un sabor más intenso",
+              "text": {
+                "es": " Después para un sabor más intenso",
+                "en": "After for a more intense flavor",
+                "pt": "Depois para um sabor mais intenso"
+              },
               "isCorrect": false
             },
             {
-              "text": "El sabor es siempre el mismo",
+              "text": {
+                "es": "El sabor es siempre el mismo",
+                "en": "The flavor is always the same",
+                "pt": "O sabor é sempre o mesmo"
+              },
               "isCorrect": false
             }
           ]

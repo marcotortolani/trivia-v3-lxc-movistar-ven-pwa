@@ -7,7 +7,7 @@ import { useConfigStore } from '@/lib/config-store'
 import { useQuestionStore } from '@/lib/questions/questions-store'
 import { Timer } from './timer'
 import BadgeGlow from '../ui/badge-glow'
-import { Question, Answer } from '@/types/type-config-data'
+import { Question, Answer, Lang } from '@/types/type-config-data'
 import TimeUp from './time-up'
 
 import correctAnswer from '@/assets/sound/correct-answer.mp3'
@@ -29,7 +29,7 @@ export function CardQuestion({
 }) {
   const { selectedCategory } = useGameStore()
   const { showExtraPoints } = useQuestionStore()
-  const { colors, soundActive, dictionary } = useConfigStore()
+  const { colors, soundActive, dictionary, lang } = useConfigStore()
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null)
   const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null)
 
@@ -134,7 +134,7 @@ export function CardQuestion({
               color: colors.text,
             }}
           >
-            {currentQuestion?.title}
+            {currentQuestion?.title[lang as Lang]}
           </h2>
 
           <div className="grid gap-4 lg:gap-6">
@@ -177,7 +177,7 @@ function ButtonAnswer({
   questionHasBonus: boolean
   categoryHasBonus: boolean
 }) {
-  const { config, colors, dictionary } = useConfigStore()
+  const { config, colors, dictionary, lang } = useConfigStore()
   const { pointsCorrect, pointsWrong, pointsBonus } = config
 
   const styles = {
@@ -228,7 +228,7 @@ function ButtonAnswer({
               ? `${dictionary['Extra Bonus']}: +${pointsCorrect + pointsBonus}`
               : `${dictionary['Correct(sn)']}: +${pointsCorrect}`
             : `${dictionary['Incorrect(sn)']}: +${pointsWrong}`
-          : answer.text}
+          : answer.text[lang as Lang]}
       </p>
     </motion.button>
   )

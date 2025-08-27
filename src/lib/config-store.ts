@@ -1,8 +1,16 @@
+// src/lib/config-store.ts
+
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import configDataInitial from '@/data/configDataInitial.json'
 import dictionaries from '@/data/dictionaries.json'
-import { ConfigData, Dictionary } from '@/types/type-config-data'
+import {
+  ConfigData,
+  Dictionary,
+  MultilangText,
+  Lang,
+  Category,
+} from '@/types/type-config-data'
 
 const {
   lastUpdated,
@@ -17,23 +25,22 @@ const {
 } = configDataInitial
 
 export type UserData = ConfigData['userData']
+
 type CategoryImage = {
   id: number
-  name: string
+  name: MultilangText
   image: string
 }
 
-export type Lang = ConfigData['lang']
-
-const categoriesImages: CategoryImage[] = categories.map((category) => ({
-  id: category.id,
-  name: category.name,
-  image: category.imgURL,
-}))
+// const categoriesImages: CategoryImage[] = categories.map((category) => ({
+//   id: category.id,
+//   name: category.name,
+//   image: category.imgURL,
+// }))
 
 interface ConfigState {
   lastUpdated: string
-  lang: Lang | undefined
+  lang: Lang
   user: UserData
   validPeriod: ConfigData['validPeriod']
   config: ConfigData['config']
@@ -41,7 +48,7 @@ interface ConfigState {
   images: ConfigData['images']
   links: ConfigData['links']
   dictionary: Dictionary
-  categories: ConfigData['categories']
+  categories: Category[]
   categoriesImages: CategoryImage[]
   soundActive: boolean
   dataEndpoint: { gameHash: string | null; userHash: string | null }
@@ -66,7 +73,7 @@ export const useConfigStore = create<ConfigState>()(
   persist(
     (set) => ({
       lastUpdated,
-      lang: undefined,
+      lang: 'en',
       user: userData,
       validPeriod,
       config,
@@ -74,8 +81,8 @@ export const useConfigStore = create<ConfigState>()(
       images,
       links,
       dictionary: dictionaries[lang as Lang] as Dictionary,
-      categories,
-      categoriesImages,
+      categories: categories as Category[],
+      categoriesImages: [],
       soundActive: false,
       dataEndpoint: { gameHash: null, userHash: null },
       setLang: (lang: string) =>

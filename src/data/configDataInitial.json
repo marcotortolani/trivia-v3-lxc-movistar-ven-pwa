@@ -61,26 +61,46 @@
   "categories": [
     {
       "id": 1,
-      "name": "",
+      "name": {
+        "es": "",
+        "en": "",
+        "pt": ""
+      },
       "imgURL": "",
       "color": "",
       "bonus": false,
       "questions": [
         {
           "id": 1,
-          "title": "",
+          "title": {
+            "es": "",
+            "en": "",
+            "pt": ""
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "",
+              "text": {
+                "es": "",
+                "en": "",
+                "pt": ""
+              },
               "isCorrect": false
             },
             {
-              "text": "",
+              "text": {
+                "es": "",
+                "en": "",
+                "pt": ""
+              },
               "isCorrect": false
             },
             {
-              "text": "",
+              "text": {
+                "es": "",
+                "en": "",
+                "pt": ""
+              },
               "isCorrect": true
             }
           ]
@@ -96,19 +116,35 @@
       "questions": [
         {
           "id": 1,
-          "title": "",
+          "title": {
+            "es": "",
+            "en": "",
+            "pt": ""
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "",
+              "text": {
+                "es": "",
+                "en": "",
+                "pt": ""
+              },
               "isCorrect": false
             },
             {
-              "text": "",
+              "text": {
+                "es": "",
+                "en": "",
+                "pt": ""
+              },
               "isCorrect": false
             },
             {
-              "text": "",
+              "text": {
+                "es": "",
+                "en": "",
+                "pt": ""
+              },
               "isCorrect": true
             }
           ]
@@ -124,19 +160,35 @@
       "questions": [
         {
           "id": 1,
-          "title": "",
+          "title": {
+            "es": "",
+            "en": "",
+            "pt": ""
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "",
+              "text": {
+                "es": "",
+                "en": "",
+                "pt": ""
+              },
               "isCorrect": false
             },
             {
-              "text": "",
+              "text": {
+                "es": "",
+                "en": "",
+                "pt": ""
+              },
               "isCorrect": false
             },
             {
-              "text": "",
+              "text": {
+                "es": "",
+                "en": "",
+                "pt": ""
+              },
               "isCorrect": true
             }
           ]
@@ -152,19 +204,35 @@
       "questions": [
         {
           "id": 1,
-          "title": "",
+          "title": {
+            "es": "",
+            "en": "",
+            "pt": ""
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "",
+              "text": {
+                "es": "",
+                "en": "",
+                "pt": ""
+              },
               "isCorrect": false
             },
             {
-              "text": "",
+              "text": {
+                "es": "",
+                "en": "",
+                "pt": ""
+              },
               "isCorrect": false
             },
             {
-              "text": "",
+              "text": {
+                "es": "",
+                "en": "",
+                "pt": ""
+              },
               "isCorrect": true
             }
           ]
@@ -180,19 +248,35 @@
       "questions": [
         {
           "id": 1,
-          "title": "",
+          "title": {
+            "es": "",
+            "en": "",
+            "pt": ""
+          },
           "bonus": false,
           "answers": [
             {
-              "text": "",
+              "text": {
+                "es": "",
+                "en": "",
+                "pt": ""
+              },
               "isCorrect": false
             },
             {
-              "text": "",
+              "text": {
+                "es": "",
+                "en": "",
+                "pt": ""
+              },
               "isCorrect": false
             },
             {
-              "text": "",
+              "text": {
+                "es": "",
+                "en": "",
+                "pt": ""
+              },
               "isCorrect": true
             }
           ]

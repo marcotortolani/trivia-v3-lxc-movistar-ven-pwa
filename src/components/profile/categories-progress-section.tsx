@@ -1,6 +1,8 @@
+// src/components/profile/categories-progress-section.tsx
 import { motion } from 'framer-motion'
 import { useConfigStore } from '@/lib/config-store'
 import { useGameStore } from '@/lib/game-store'
+import { Lang } from '@/types/type-config-data'
 
 import SectionTitle from './section-title'
 
@@ -9,7 +11,7 @@ export default function CategoriesProgress({
 }: {
   answeredQuestionsProgress: number
 }) {
-  const { colors, dictionary } = useConfigStore()
+  const { colors, dictionary, lang } = useConfigStore()
   const { categoriesState } = useGameStore()
 
   const totalQuestions = categoriesState.reduce(
@@ -46,7 +48,7 @@ export default function CategoriesProgress({
               className=" text-[0.65rem] xs:text-xs font-oswaldRegular xs:font-oswaldBold uppercase "
               style={{ color: colors?.text }}
             >
-              {cat.name}
+              {cat.name[lang as Lang]}
             </span>
             <ProgressBar
               progress={
