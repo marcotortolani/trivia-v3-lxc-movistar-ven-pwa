@@ -35,16 +35,22 @@
     "answerBtnGradient": ""
   },
   "images": {
-    "es": {
-      "logoHeader": "",
-      "logoHeaderMenu": "",
-      "rewardsImages": [
-        {
-          "src": "",
-          "name": ""
-        }
-      ]
+    "logoHeader": {
+      "es": "",
+      "en": "",
+      "pt": ""
     },
+    "logoHeaderMenu": {
+      "es": "",
+      "en": "",
+      "pt": ""
+    },
+    "rewardsImages": [
+      {
+        "src": "",
+        "name": ""
+      }
+    ],
     "madeBy": "",
     "backgroundApp": "",
     "spinButton": "",

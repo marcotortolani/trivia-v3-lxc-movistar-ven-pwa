@@ -2,9 +2,10 @@ import { useConfigStore } from '@/lib/config-store'
 
 import triviaUpcoming from '/img/default/trivia-proximamente.webp'
 import triviaEnded from '/img/default/trivia-finalizada.webp'
+import { Lang } from '@/types/type-config-data'
 
 export default function ValidPeriod({ type }: { type: 'upcoming' | 'ended' }) {
-  const { validPeriod, images, colors, dictionary } = useConfigStore()
+  const { validPeriod, images, colors, dictionary, lang } = useConfigStore()
   const dateStartStyled = new Date(validPeriod?.startDate).toLocaleDateString(
     'es',
     {
@@ -46,7 +47,7 @@ export default function ValidPeriod({ type }: { type: 'upcoming' | 'ended' }) {
     >
       <img
         className=" w-2/3 max-w-[300px] h-auto "
-        src={images?.es.logoHeader}
+        src={images?.logoHeader[lang as Lang]}
         alt="Imágen Logo"
       />
       <div className="w-full h-full pb-20 flex flex-col items-center justify-center gap-2">

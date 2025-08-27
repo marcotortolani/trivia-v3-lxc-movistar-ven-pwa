@@ -30,6 +30,7 @@ import swoosh from '@/assets/sound/swoosh.mp3'
 import blopSound from '@/assets/sound/blop.mp3'
 import UserAvatar from './profile/user-avatar'
 import FallbackImage from './fallback-image'
+import { Lang } from '@/types/type-config-data'
 
 interface SidebarProps {
   isOpen: boolean
@@ -92,8 +93,11 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
             </button>
             <div className="w-3/4">
               <FallbackImage
-                primaryImage={images.es.logoHeaderMenu || images.es.logoHeader}
-                fallbackImage={images.es.logoHeader}
+                primaryImage={
+                  images?.logoHeaderMenu[lang as Lang] ||
+                  images?.logoHeader[lang as Lang]
+                }
+                fallbackImage={images?.logoHeader[lang as Lang]}
                 alt="Logo header menu"
                 className=" max-w-[300px] mx-auto max-h-[150px]"
               />

@@ -35,16 +35,22 @@
     "answerBtnGradient": "#b6b6b6"
   },
   "images": {
-    "es": {
-      "logoHeader": "/img/logo.webp",
-      "logoHeaderMenu": "/img/logo.webp",
-      "rewardsImages": [
-        {
-          "src": "/img/premio01.webp",
-          "name": "prize"
-        }
-      ]
+    "logoHeader": {
+      "es": "/img/logo-lxc.webp",
+      "en": "/img/logo-mad-for-cooking.webp",
+      "pt": "/img/logo-loucos.webp"
     },
+    "logoHeaderMenu": {
+      "es": "/img/logo-lxc.webp",
+      "en": "/img/logo-mad-for-cooking.webp",
+      "pt": "/img/logo-loucos.webp"
+    },
+    "rewardsImages": [
+      {
+        "src": "/img/premio01.webp",
+        "name": "prize"
+      }
+    ],
     "madeBy": "/img/by-memoob.webp",
     "backgroundApp": "",
     "spinButton": "/img/girar-icon.webp",

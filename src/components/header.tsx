@@ -8,6 +8,7 @@ import { Button } from '@/components/ui/button'
 import popClick from '../assets/sound/pop-click.mp3'
 import swoosh from '../assets/sound/swoosh.mp3'
 import arcadePop from '../assets/sound/arcade-pop.mp3'
+import { Lang } from '@/types/type-config-data'
 
 interface HeaderProps {
   onMenuClick: () => void
@@ -15,7 +16,7 @@ interface HeaderProps {
 
 export function Header({ onMenuClick }: HeaderProps) {
   const location = useLocation()
-  const { images, colors, soundActive, setSoundActive } = useConfigStore()
+  const { images, colors, soundActive, setSoundActive, lang } = useConfigStore()
 
   const [playPopClick] = useSound(popClick)
   const [playSwoosh] = useSound(swoosh)
@@ -57,7 +58,7 @@ export function Header({ onMenuClick }: HeaderProps) {
 
         <div className=" ">
           <img
-            src={images.es.logoHeader}
+            src={images?.logoHeader[lang as Lang]}
             alt="Logo"
             onClick={handleLogoClick}
             className="w-5/6 xs:w-4/5 max-w-[300px] max-h-[150px] md:max-h-[200px] mx-auto hover:cursor-pointer"

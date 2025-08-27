@@ -37,11 +37,17 @@ export interface ConfigData {
     answerBtnGradient: string
   }
   images: {
-    es: {
-      logoHeader: string
-      logoHeaderMenu: string
-      rewardsImages: { src: string; name: string }[]
+    logoHeader: {
+      es: string
+      en: string
+      pt: string
     }
+    logoHeaderMenu: {
+      es: string
+      en: string
+      pt: string
+    }
+    rewardsImages: { src: string; name: string }[]
     madeBy: string
     backgroundApp: string
     spinButton: string
