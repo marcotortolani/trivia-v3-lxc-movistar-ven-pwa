@@ -14,7 +14,7 @@ export default function SliderRewards() {
 
   const [playSnap] = useSound(fingerSnap)
 
-  const REWARDS_ITEMS = images['es'].rewardsImages.filter(
+  const REWARDS_ITEMS = images.rewardsImages.filter(
     (item) => item.src !== 'null' && item.src !== null && item.src !== ''
   )
 
