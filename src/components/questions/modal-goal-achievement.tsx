@@ -1,6 +1,7 @@
 import { useLottie } from 'lottie-react'
 import { motion } from 'framer-motion'
-import { Lang, useConfigStore } from '@/lib/config-store'
+import { useConfigStore } from '@/lib/config-store'
+import { Lang } from '@/types/type-config-data'
 import { MEDAL_THRESHOLDS } from '@/lib/questions/questions-constants'
 
 import goldMedal from '@/assets/lotties/gold-medal.json'
