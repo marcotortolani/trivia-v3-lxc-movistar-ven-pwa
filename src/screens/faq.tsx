@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import useSound from 'use-sound'
 import { motion, AnimatePresence } from 'framer-motion'
-import { useConfigStore, Lang } from '@/lib/config-store'
+import { useConfigStore } from '@/lib/config-store'
+import { Lang } from '@/types/type-config-data'
 import { Header } from '@/components/header'
 import { Sidebar } from '@/components/sidebar'
 

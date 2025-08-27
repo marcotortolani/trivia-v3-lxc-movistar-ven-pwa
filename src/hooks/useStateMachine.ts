@@ -1,6 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useCallback } from 'react'
-import { useConfigStore, Lang } from '@/lib/config-store'
+import { useConfigStore } from '@/lib/config-store'
+import { Lang } from '@/types/type-config-data'
 import MOTIVATIONAL_MESSAGES from '@/data/motivational-messages.json'
 import {
   MEDAL_THRESHOLDS,
